@@ -1,0 +1,63 @@
+study,pop,ecotype,pop_alias,data_source,pooled,accession_number,barcode,seq_type,latitude,longitude,Region,N
+jones,KODK,marine,pac,SRA,no,PRJNA247503,,WGS,56.965,-151.35,Alaska,1
+hohenlohe,bear_paw_lake,lake,bea,SRA,no,SRP001747,,RAD,61.613799,-149.7565,Alaska,28
+hohenlohe,resurrection_bay,marine,res,SRA,no,SRP001747,,RAD,60.1269,-149.4065,Alaska,20
+hohenlohe,rabbit_slough,marine,rab,SRA,no,SRP001747,,RAD,61.32987,-149.151378,Alaska,16
+hohenlohe,mud_lake,lake,mud,SRA,no,SRP001747,,RAD,61.563,-148.949,Alaska,19
+roesti,joes,stream,joes,SRA,no,SRP007695,,RAD,50.36462,-127.32228,BC,26
+roesti,joes,lake,joes,SRA,no,SRP007695,,RAD,50.37322,-127.29068,BC,27
+roesti,misty,stream,misty,SRA,no,SRP007695,,RAD,50.36591,-127.17041,BC,27
+roesti,misty,lake,misty,SRA,no,SRP007695,,RAD,50.36349,-127.15554,BC,27
+miller,seyw,marine,pac,UBC,no,NA,,WGS,50.373634,-125.929494,BC,1
+roesti,roberts,stream,roberts,SRA,no,SRP007695,,RAD,50.14308,-125.35201,BC,27
+roesti,boot,stream,boot,SRA,no,SRP007695,,RAD,50.02171,-125.33591,BC,27
+roesti,roberts,lake,roberts,SRA,no,SRP007695,,RAD,50.13375,-125.33131,BC,27
+roesti,boot,lake,boot,SRA,no,SRP007695,,RAD,50.03002,-125.32274,BC,26
+miller,BAM,marine,pac,UBC,no,NA,,WGS,48.824876,-125.136342,BC,1
+rennison,priest,limnetic,pri,UBC,no,NA,,GBS,49.745477,-124.566159,BC,20
+rennison,priest,benthic,pri,UBC,no,NA,,GBS,49.745477,-124.566159,BC,20
+rennison,paxton,limnetic,pax,UBC,no,NA,,GBS,49.708931,-124.525205,BC,20
+rennison,paxton,benthic,pax,UBC,no,NA,,GBS,49.708931,-124.525205,BC,20
+catchen,cushman_slough,marine,cs,SRA,no,SRA070979,,RAD,43.59224,-124.24294,Oregon,98
+catchen,winchester_creek,stream,wc,SRA,no,SRA070979,,RAD,43.144737,-124.190268,Oregon,22
+rennison,little_quarry,benthic,lq,UBC,no,NA,,GBS,49.662625,-124.10899,BC,20
+rennison,little_quarry,limnetic,lq,UBC,no,NA,,GBS,49.662625,-124.10899,BC,10
+catchen,south_twin_lake,lake,stl,SRA,no,SRA070979,,RAD,43.430293,-124.075842,Oregon,50
+miller,Oyster2,marine,pac,UBC,no,NA,,WGS,49.612097,-124.032062,BC,1
+catchen,millport_slough,marine,ms,SRA,no,SRA070979,,RAD,44.531468,-123.59262,Oregon,68
+catchen,south_jetty,marine,sj,SRA,no,SRA070979,,RAD,44.0003,-123.563084,Oregon,96
+catchen,riverbend,stream,rb,SRA,no,SRA070979,,RAD,44.042805,-123.011811,Oregon,140
+jones,LITC_0_45_2008_789,marine,pac,SRA,no,PRJNA247503,,WGS,49.013,-122.778,BC,1
+miller,WCM,marine,pac,UBC,no,NA,,WGS,49.191545,-122.655709,BC,1
+miller,Salmon,marine,pac,UBC,no,NA,,WGS,49.175163,-122.59434,BC,1
+catchen,paulina_lake,lake,pl,SRA,no,SRA070979,,RAD,43.42736,-121.152715,Oregon,22
+catchen,pony_creak_reservoir,lake,pcr,SRA,no,SRA070979,,RAD,43.424293,-121.152565,Oregon,68
+catchen,crooked_river,stream,cr,SRA,no,SRA070979,,RAD,44.172317,-120.504409,Oregon,24
+samuk,Canal Lake ,marine,cl,UBC,no,NA,,GBS,44.49852425,-63.90343601,Nova Scotia,12
+samuk,Canal Lake ,white,cl,UBC,no,NA,,GBS,44.49852425,-63.90343601,Nova Scotia,15
+samuk,Antigonish Landing ,marine,al,UBC,no,NA,,GBS,45.63196699,-61.9600023,Nova Scotia,16
+samuk,Captain's Pond ,marine,cp,UBC,no,NA,,GBS,45.67188511,-61.86122859,Nova Scotia,30
+samuk,Milford Haven Collection ,marine,mh,UBC,no,NA,,GBS,45.45772194,-61.61208761,Nova Scotia,9
+samuk,Milford Haven Collection ,white,mh,UBC,no,NA,,GBS,45.45772194,-61.61208761,Nova Scotia,7
+samuk,Salmon River Estuary ,marine,sr,UBC,no,NA,,GBS,45.35265732,-61.47283403,Nova Scotia,14
+samuk,Salmon River Estuary ,white,sr,UBC,no,NA,,GBS,45.35265732,-61.47283403,Nova Scotia,17
+samuk,Skye River ,marine,sk,UBC,no,NA,,GBS,45.97041687,-61.11930231,Nova Scotia,15
+samuk,Little Narrows ,marine,ln,UBC,no,NA,,GBS,45.99215909,-60.98498462,Nova Scotia,25
+jones,BITJ,marine,atl,SRA,no,PRJNA247503,,WGS,65.457,-21.44,Iceland,1
+jones,NTRW,marine,atl,SRA,no,PRJNA247503,,WGS,68.5,2,Norway,1
+roesti,geneva,lake,geneva,SRA,no,SRP007695,,RAD,46.31289,6.34417,Switzerland,27
+roesti,geneva,stream,geneva,SRA,no,SRP007695,,RAD,46.205218,6.543743,Switzerland,27
+Feulner,atlantic,marine,denmark,ENA,no,PRJEB2954,,WGS,56.36919,8.18194,Denmark,6
+roesti,constance,stream,constance,SRA,no,SRP007695,,RAD,47.332925,9.164238,Switzerland,27
+roesti,constance,lake,constance,SRA,no,SRP007695,,RAD,47.33225,9.224825,Switzerland,27
+ferchaud,lake_hald,lake,hald,SRA,no,SRX437379,,RAD,56.382883,9.35422,Denmark,20
+ferchaud,mariager,marine,mariager,SRA,no,SRX437379,,RAD,56.662588,9.968612,Denmark,20
+ferchaud,hadsten,lake,hadsten,SRA,no,SRX437379,,RAD,56.3298,10.0476,Denmark,20
+terekhanova,mashinnoye_lake,lake,mash,SRA,yes,SRP023197 ,,WGS,66.1774,33.2182,Russia,10
+terekhanova,ershovskoye,marine,ershov,SRA,yes,SRP023197 ,,WGS,66.3221,33.362,Russia,10
+terekhanova,ershovskoye,lake,ershov,SRA,yes,SRP023197 ,,WGS,66.3221,33.362,Russia,12
+terekhanova,nilma,marine,nilma,SRA,yes,SRP023197 ,,WGS,66.3045,33.768,Russia,16
+jones,MANC,marine,pac,SRA,no,PRJNA247503,,WGS,47.567,-122.547,Oregon,1
+Yoshida,japan_pac,marine,japan,DRA,no,DRA001136,,WGS,43.05375,144.89443,Japan,8
+Yoshida,japan_sea,japansea,japan,DRA,no,DRA001136,,WGS,43.05375,144.89443,Japan,8
+NA,little campbell river,marine,litcampbell,NA,NA,NA,,WGS,49.012722,-122.778247,BC,8

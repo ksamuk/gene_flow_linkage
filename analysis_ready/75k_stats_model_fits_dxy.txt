@@ -1,0 +1,1129 @@
+pop1	ecotype1	pop2	ecotype2	geography	ecology	intercept	recomb_rate	ds	gene_count	linear_model_warning	n_windows_dxy	n_windows_fst	group	reg1	reg2	geography2	group2
+al	marine	cl	marine	allo	S	-4.344	0.106	0.836	0.042	NA	2544	2825	allo_S	ns	ns	para	para_S
+al	marine	cl	white	allo	D	-3.9	0.108	0.559	0.001	NA	2927	3114	allo_D	ns	ns	para	para_D
+al	marine	cp	marine	para	S	-3.625	0.11	0.254	0.005	NA	3023	3171	para_S	ns	ns	para	para_S
+al	marine	ln	marine	allo	S	-3.948	0.109	0.512	0.022	NA	2963	3127	allo_S	ns	ns	para	para_S
+al	marine	mh	marine	allo	S	-4.625	0.123	1.032	0.039	NA	2257	2600	allo_S	ns	ns	para	para_S
+al	marine	mh	white	allo	D	-4.006	0.086	0.724	0.011	NA	1708	2150	allo_D	ns	ns	para	para_D
+al	marine	sk	marine	allo	S	-4.172	0.094	0.795	0.024	NA	2669	2901	allo_S	ns	ns	para	para_S
+al	marine	sr	marine	allo	S	-3.977	0.119	0.661	-0.017	NA	2818	3022	allo_S	ns	ns	para	para_S
+al	marine	sr	white	allo	D	-3.854	0.098	0.492	0.016	NA	2910	3093	allo_D	ns	ns	para	para_D
+bea	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	137	allo_D	al	ns	allo	allo_D
+bea	lake	boot	lake	allo	S	3.975	0.134	-8.536	0.021	NA	106	1473	allo_S	al	bc	allo	allo_S
+bea	lake	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	87	1428	allo_D	al	bc	allo	allo_D
+bea	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	100	allo_D	al	ns	allo	allo_D
+bea	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	140	allo_D	al	ns	allo	allo_D
+bea	lake	constance	lake	allo	S	-0.778	-0.065	-1.402	-0.091	NA	121	1551	allo_S	al	sl	allo	allo_S
+bea	lake	constance	stream	allo	D	-0.659	-0.274	-0.476	-0.193	NA	124	1566	allo_D	al	sl	allo	allo_D
+bea	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	247	allo_D	al	ns	allo	allo_D
+bea	lake	denmark	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	631	allo_D	al	ne	allo	allo_D
+bea	lake	geneva	lake	allo	S	0.488	0.074	-3.868	-0.041	NA	120	1450	allo_S	al	sl	allo	allo_S
+bea	lake	geneva	stream	allo	D	-1.632	0.021	-0.901	-0.099	NA	134	1448	allo_D	al	sl	allo	allo_D
+bea	lake	japan	japansea	allo	D	-1.129	-0.02	-0.163	-0.341	NA	257	2789	allo_D	al	jp	allo	allo_D
+bea	lake	japan	marine	allo	D	-2.645	0.078	-0.078	-0.111	NA	247	2042	allo_D	al	jp	allo	allo_D
+bea	lake	joes	lake	allo	S	0.883	0.072	-4.256	-0.044	NA	115	1461	allo_S	al	bc	allo	allo_S
+bea	lake	joes	stream	allo	D	-0.769	0.03	-2.06	-0.043	NA	106	1446	allo_D	al	bc	allo	allo_D
+bea	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	44	allo_D	al	bc	allo	allo_D
+bea	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	167	allo_D	al	ns	allo	allo_D
+bea	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	68	allo_D	al	ns	allo	allo_D
+bea	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	49	allo_D	al	ns	allo	allo_D
+bea	lake	misty	lake	allo	S	4.476	0.138	-10.809	0.214	NA	131	1659	allo_S	al	bc	allo	allo_S
+bea	lake	misty	stream	allo	D	1.777	0.126	-6.073	0.012	NA	130	1641	allo_D	al	bc	allo	allo_D
+bea	lake	mud	lake	allo	S	-3.505	0.078	-0.324	0.097	NA	231	1627	allo_S	al	al	para	para_S
+bea	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	656	allo_D	al	al	para	para_D
+bea	lake	res	marine	allo	D	-4.239	0.004	1.572	-0.064	NA	190	1584	allo_D	al	al	para	para_D
+bea	lake	roberts	lake	allo	S	2.984	0.113	-6.304	-0.147	NA	124	1714	allo_S	al	bc	allo	allo_S
+bea	lake	roberts	stream	allo	D	4.527	0.051	-8.183	-0.128	NA	119	1615	allo_D	al	bc	allo	allo_D
+bea	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	115	allo_D	al	ns	allo	allo_D
+bea	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	126	allo_D	al	ns	allo	allo_D
+bea	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	150	allo_D	al	ns	allo	allo_D
+boot	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	219	allo_D	bc	ns	allo	allo_D
+boot	lake	boot	stream	para	D	-4.008	-0.129	0.818	0.118	NA	591	1457	para_D	bc	bc	para	para_D
+boot	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	145	allo_D	bc	ns	allo	allo_D
+boot	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	230	allo_D	bc	ns	allo	allo_D
+boot	lake	constance	lake	allo	S	-3.634	-0.045	0.459	0.077	NA	728	1865	allo_S	bc	sl	allo	allo_S
+boot	lake	constance	stream	allo	D	-3.173	-0.017	0.013	0.054	NA	735	1902	allo_D	bc	sl	allo	allo_D
+boot	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	375	allo_D	bc	ns	allo	allo_D
+boot	lake	geneva	lake	allo	S	-3.915	0.038	0.704	0.029	NA	747	1844	allo_S	bc	sl	allo	allo_S
+boot	lake	geneva	stream	allo	D	-3.981	0.022	0.663	0.06	NA	731	1834	allo_D	bc	sl	allo	allo_D
+boot	lake	joes	lake	allo	S	-2.53	-0.069	-0.899	0.118	NA	747	1861	allo_S	bc	bc	para	para_S
+boot	lake	joes	stream	allo	D	-2.582	-0.092	-1.136	0.171	NA	713	1850	allo_D	bc	bc	para	para_D
+boot	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	252	allo_D	bc	ns	allo	allo_D
+boot	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	110	allo_D	bc	ns	allo	allo_D
+boot	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	72	allo_D	bc	ns	allo	allo_D
+boot	lake	misty	lake	allo	S	-2.715	-0.007	-1.091	0.149	NA	809	2041	allo_S	bc	bc	para	para_S
+boot	lake	misty	stream	allo	D	-2.796	-0.023	-0.695	0.112	NA	802	2023	allo_D	bc	bc	para	para_D
+boot	lake	roberts	lake	allo	S	-3.681	-0.031	0.174	0.125	NA	847	2120	allo_S	bc	bc	para	para_S
+boot	lake	roberts	stream	allo	D	-2.547	-0.037	-1.229	0.159	NA	807	2032	allo_D	bc	bc	para	para_D
+boot	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	178	allo_D	bc	ns	allo	allo_D
+boot	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	194	allo_D	bc	ns	allo	allo_D
+boot	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	215	allo_D	bc	ns	allo	allo_D
+boot	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	207	allo_D	bc	ns	allo	allo_D
+boot	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	132	allo_D	bc	ns	allo	allo_D
+boot	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	213	allo_D	bc	ns	allo	allo_D
+boot	stream	constance	lake	allo	D	-3.003	-0.113	0.449	-0.001	NA	624	1748	allo_D	bc	sl	allo	allo_D
+boot	stream	constance	stream	allo	S	-2.681	-0.115	0.101	0.001	NA	627	1789	allo_S	bc	sl	allo	allo_S
+boot	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	359	allo_D	bc	ns	allo	allo_D
+boot	stream	geneva	lake	allo	D	-2.484	-0.088	-0.353	0.033	NA	622	1704	allo_D	bc	sl	allo	allo_D
+boot	stream	geneva	stream	allo	S	-2.627	-0.096	-0.156	0.027	NA	610	1682	allo_S	bc	sl	allo	allo_S
+boot	stream	joes	lake	allo	D	-3.42	-0.01	-0.34	0.146	NA	618	1690	allo_D	bc	bc	para	para_D
+boot	stream	joes	stream	allo	S	-3.09	-0.093	-0.32	0.129	NA	614	1688	allo_S	bc	bc	para	para_S
+boot	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	232	allo_D	bc	ns	allo	allo_D
+boot	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	103	allo_D	bc	ns	allo	allo_D
+boot	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	76	allo_D	bc	ns	allo	allo_D
+boot	stream	misty	lake	allo	D	-3.691	-0.003	-0.583	0.224	NA	696	1952	allo_D	bc	bc	para	para_D
+boot	stream	misty	stream	allo	S	-3.442	-0.01	-0.866	0.233	NA	701	1952	allo_S	bc	bc	para	para_S
+boot	stream	roberts	lake	allo	D	-3.335	-0.007	-0.312	0.13	NA	734	2118	allo_D	bc	bc	para	para_D
+boot	stream	roberts	stream	allo	S	-3.536	-0.015	-0.075	0.128	NA	700	1957	allo_S	bc	bc	para	para_S
+boot	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	158	allo_D	bc	ns	allo	allo_D
+boot	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	172	allo_D	bc	ns	allo	allo_D
+boot	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	210	allo_D	bc	ns	allo	allo_D
+cl	marine	cl	white	para	D	-4.313	0.113	0.923	0.007	NA	2524	2819	para_D	ns	ns	para	para_D
+cl	marine	cp	marine	allo	S	-4.132	0.098	0.776	0.014	NA	2515	2780	allo_S	ns	ns	para	para_S
+cl	marine	ln	marine	allo	S	-4.091	0.094	0.583	0.051	NA	2533	2801	allo_S	ns	ns	para	para_S
+cl	marine	mh	marine	allo	S	-4.367	0.095	0.905	0.042	NA	2194	2562	allo_S	ns	ns	para	para_S
+cl	marine	mh	white	allo	D	-3.926	0.096	0.401	0.054	NA	1724	2184	allo_D	ns	ns	para	para_D
+cl	marine	sk	marine	allo	S	-4.136	0.106	0.687	0.029	NA	2461	2759	allo_S	ns	ns	para	para_S
+cl	marine	sr	marine	allo	S	-4.145	0.109	0.673	0.029	NA	2484	2776	allo_S	ns	ns	para	para_S
+cl	marine	sr	white	allo	D	-4.132	0.089	0.747	0.031	NA	2523	2804	allo_D	ns	ns	para	para_D
+cl	white	cp	marine	allo	D	-4.505	0.093	1.231	0.004	NA	3029	3176	allo_D	ns	ns	para	para_D
+cl	white	ln	marine	allo	D	-4.191	0.107	0.721	0.032	NA	2996	3169	allo_D	ns	ns	para	para_D
+cl	white	mh	marine	allo	D	-4.364	0.115	0.866	0.029	NA	2241	2589	allo_D	ns	ns	para	para_D
+cl	white	mh	white	allo	S	-4.058	0.079	0.679	0.039	NA	1701	2161	allo_S	ns	ns	para	para_S
+cl	white	sk	marine	allo	D	-3.808	0.099	0.567	-0.013	NA	2695	2938	allo_D	ns	ns	para	para_D
+cl	white	sr	marine	allo	D	-4.128	0.118	0.641	0.023	NA	2814	3033	allo_D	ns	ns	para	para_D
+cl	white	sr	white	allo	S	-4.156	0.112	0.776	0.007	NA	2904	3097	allo_S	ns	ns	para	para_S
+constance	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	147	allo_D	sl	ns	allo	allo_D
+constance	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	88	allo_D	sl	ns	allo	allo_D
+constance	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	161	allo_D	sl	ns	allo	allo_D
+constance	lake	constance	stream	para	D	-1.634	0.007	-1.254	-0.031	NA	564	1172	para_D	sl	sl	para	para_D
+constance	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	277	allo_D	sl	ns	allo	allo_D
+constance	lake	geneva	lake	allo	S	-2.067	0.045	-0.899	-0.041	NA	589	1263	allo_S	sl	sl	para	para_S
+constance	lake	geneva	stream	allo	D	-1.953	0.061	-1.167	-0.033	NA	599	1271	allo_D	sl	sl	para	para_D
+constance	lake	joes	lake	allo	S	-2.532	-0.017	-0.592	0.039	NA	717	1917	allo_S	sl	bc	allo	allo_S
+constance	lake	joes	stream	allo	D	-2.957	-0.014	-0.382	0.083	NA	683	1881	allo_D	sl	bc	allo	allo_D
+constance	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	192	allo_D	sl	ns	allo	allo_D
+constance	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	69	allo_D	sl	ns	allo	allo_D
+constance	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	47	allo_D	sl	ns	allo	allo_D
+constance	lake	misty	lake	allo	S	-3.323	-0.031	0.676	-0.031	NA	789	2139	allo_S	sl	bc	allo	allo_S
+constance	lake	misty	stream	allo	D	-2.751	-0.035	0.261	-0.063	NA	793	2126	allo_D	sl	bc	allo	allo_D
+constance	lake	roberts	lake	allo	S	-3.028	0.023	-0.73	0.129	NA	802	2217	allo_S	sl	bc	allo	allo_S
+constance	lake	roberts	stream	allo	D	-2.807	-0.022	-0.518	0.083	NA	766	2074	allo_D	sl	bc	allo	allo_D
+constance	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	110	allo_D	sl	ns	allo	allo_D
+constance	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	124	allo_D	sl	ns	allo	allo_D
+constance	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	158	allo_D	sl	ns	allo	allo_D
+constance	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	147	allo_D	sl	ns	allo	allo_D
+constance	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	92	allo_D	sl	ns	allo	allo_D
+constance	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	162	allo_D	sl	ns	allo	allo_D
+constance	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	295	allo_D	sl	ns	allo	allo_D
+constance	stream	geneva	lake	allo	D	-1.516	0.068	-1.67	-0.032	NA	591	1268	allo_D	sl	sl	para	para_D
+constance	stream	geneva	stream	allo	S	-1.533	0.064	-1.828	0.008	NA	603	1282	allo_S	sl	sl	para	para_S
+constance	stream	joes	lake	allo	D	-1.874	-0.001	-1.399	0.044	NA	736	1966	allo_D	sl	bc	allo	allo_D
+constance	stream	joes	stream	allo	S	-1.642	0.003	-1.666	0.046	NA	705	1928	allo_S	sl	bc	allo	allo_S
+constance	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	181	allo_D	sl	ns	allo	allo_D
+constance	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	68	allo_D	sl	ns	allo	allo_D
+constance	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	53	allo_D	sl	ns	allo	allo_D
+constance	stream	misty	lake	allo	D	-2.17	-0.022	-0.669	-0.009	NA	804	2176	allo_D	sl	bc	allo	allo_D
+constance	stream	misty	stream	allo	S	-2.28	-0.045	-0.55	0.005	NA	803	2163	allo_S	sl	bc	allo	allo_S
+constance	stream	roberts	lake	allo	D	-3.012	-0.018	-0.271	0.076	NA	805	2239	allo_D	sl	bc	allo	allo_D
+constance	stream	roberts	stream	allo	S	-2.746	-0.023	-0.583	0.083	NA	788	2114	allo_S	sl	bc	allo	allo_S
+constance	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	108	allo_D	sl	ns	allo	allo_D
+constance	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	127	allo_D	sl	ns	allo	allo_D
+constance	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	157	allo_D	sl	ns	allo	allo_D
+cp	marine	ln	marine	allo	S	-4.033	0.105	0.488	0.05	NA	3157	3279	allo_S	ns	ns	para	para_S
+cp	marine	mh	marine	allo	S	-4.547	0.108	0.993	0.046	NA	2239	2583	allo_S	ns	ns	para	para_S
+cp	marine	mh	white	allo	D	-4.377	0.093	0.94	0.041	NA	1701	2164	allo_D	ns	ns	para	para_D
+cp	marine	sk	marine	allo	S	-4.337	0.1	0.958	0.02	NA	2732	2944	allo_S	ns	ns	para	para_S
+cp	marine	sr	marine	allo	S	-3.937	0.131	0.427	0.011	NA	2859	3034	allo_S	ns	ns	para	para_S
+cp	marine	sr	white	allo	D	-4.051	0.097	0.76	0.004	NA	3022	3175	allo_D	ns	ns	para	para_D
+cr	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	423	allo_D	or	ns	allo	allo_D
+cr	stream	bea	lake	allo	D	-1.924	-0.177	1.162	-0.308	NA	103	1683	allo_D	or	al	allo	allo_D
+cr	stream	boot	lake	allo	D	-1.85	-0.084	-0.705	-0.028	NA	626	2185	allo_D	or	bc	allo	allo_D
+cr	stream	boot	stream	allo	S	-1.012	-0.095	-1.809	0.006	NA	504	2027	allo_S	or	bc	allo	allo_S
+cr	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	262	allo_D	or	ns	allo	allo_D
+cr	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	407	allo_D	or	ns	allo	allo_D
+cr	stream	constance	lake	allo	D	-1.42	-0.054	-0.985	-0.081	NA	661	2163	allo_D	or	sl	allo	allo_D
+cr	stream	constance	stream	allo	S	-1.595	-0.002	-1.094	-0.06	NA	665	2205	allo_S	or	sl	allo	allo_S
+cr	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	9	659	allo_D	or	ns	allo	allo_D
+cr	stream	cs	marine	allo	D	-3.076	-0.123	0.164	0.062	NA	1599	2983	allo_D	or	or	para	para_D
+cr	stream	denmark	marine	allo	D	-1.008	-0.51	-1.293	0	NA	127	1394	allo_D	or	ne	allo	allo_D
+cr	stream	geneva	lake	allo	D	-1.293	-0.082	-0.86	-0.121	NA	656	2159	allo_D	or	sl	allo	allo_D
+cr	stream	geneva	stream	allo	S	-0.923	-0.101	-1.021	-0.158	NA	663	2144	allo_S	or	sl	allo	allo_S
+cr	stream	hadsten	lake	allo	D	-1.947	-0.062	-1.029	0.034	NA	906	2620	allo_D	or	ne	allo	allo_D
+cr	stream	hald	lake	allo	D	-2.846	-0.033	-0.168	0.034	NA	938	2696	allo_D	or	ne	allo	allo_D
+cr	stream	japan	japansea	allo	D	-2.371	0.036	-0.346	-0.083	NA	1654	3330	allo_D	or	jp	allo	allo_D
+cr	stream	japan	marine	allo	D	-3.062	-0.048	0.02	0.05	NA	1619	2921	allo_D	or	jp	allo	allo_D
+cr	stream	joes	lake	allo	D	-1.769	-0.082	-2.116	0.181	NA	624	2175	allo_D	or	bc	allo	allo_D
+cr	stream	joes	stream	allo	S	-2.051	-0.126	-0.943	0.063	NA	580	2107	allo_S	or	bc	allo	allo_S
+cr	stream	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	120	allo_D	or	bc	allo	allo_D
+cr	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	490	allo_D	or	ns	allo	allo_D
+cr	stream	mariager	marine	allo	D	-3.143	-0.025	0.028	0.053	NA	903	2696	allo_D	or	ne	allo	allo_D
+cr	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	200	allo_D	or	ns	allo	allo_D
+cr	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	145	allo_D	or	ns	allo	allo_D
+cr	stream	misty	lake	allo	D	-2.274	-0.091	-0.369	-0.002	NA	688	2370	allo_D	or	bc	allo	allo_D
+cr	stream	misty	stream	allo	S	-2.065	-0.124	-0.564	0.007	NA	691	2347	allo_S	or	bc	allo	allo_S
+cr	stream	ms	marine	allo	D	-2.008	-0.111	-1.195	0.093	NA	930	2659	allo_D	or	or	para	para_D
+cr	stream	mud	lake	allo	D	-2.798	-0.144	1.63	-0.266	NA	131	1774	allo_D	or	al	allo	allo_D
+cr	stream	pcr	lake	allo	D	-2.512	-0.127	-0.312	0.042	NA	1597	2983	allo_D	or	or	para	para_D
+cr	stream	pl	lake	allo	D	-3.442	0.054	0.105	0.031	NA	930	1322	allo_D	or	or	para	para_D
+cr	stream	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	618	allo_D	or	al	allo	allo_D
+cr	stream	rb	stream	allo	S	-3.124	0.023	-0.058	0.031	NA	969	2470	allo_S	or	or	para	para_S
+cr	stream	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	90	1579	allo_D	or	al	allo	allo_D
+cr	stream	roberts	lake	allo	D	-2.572	-0.135	0.229	-0.036	NA	688	2446	allo_D	or	bc	allo	allo_D
+cr	stream	roberts	stream	allo	S	-2.379	-0.08	-0.408	0.018	NA	668	2331	allo_S	or	bc	allo	allo_S
+cr	stream	sj	marine	allo	D	-2.968	-0.12	0.038	0.064	NA	1593	2994	allo_D	or	or	para	para_D
+cr	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	331	allo_D	or	ns	allo	allo_D
+cr	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	369	allo_D	or	ns	allo	allo_D
+cr	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	414	allo_D	or	ns	allo	allo_D
+cr	stream	stl	lake	allo	D	-3.82	0.092	0.468	-0.008	NA	1011	1420	allo_D	or	or	para	para_D
+cr	stream	wc	stream	allo	S	-2.723	-0.113	-0.15	0.047	NA	1579	2903	allo_S	or	or	para	para_S
+cs	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	553	allo_S	or	ns	allo	allo_S
+cs	marine	bea	lake	allo	D	0.682	-0.146	-1.418	-0.372	NA	125	1934	allo_D	or	al	allo	allo_D
+cs	marine	boot	lake	allo	D	-2.954	-0.026	-0.393	0.09	NA	729	2515	allo_D	or	bc	allo	allo_D
+cs	marine	boot	stream	allo	D	-2.618	-0.044	-1.824	0.247	NA	575	2475	allo_D	or	bc	allo	allo_D
+cs	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	367	allo_S	or	ns	allo	allo_S
+cs	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	550	allo_D	or	ns	allo	allo_D
+cs	marine	constance	lake	allo	D	-4.046	0.094	0.649	0.01	NA	739	2533	allo_D	or	sl	allo	allo_D
+cs	marine	constance	stream	allo	D	-3.872	0.073	0.376	0.049	NA	758	2543	allo_D	or	sl	allo	allo_D
+cs	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	11	840	allo_S	or	ns	allo	allo_S
+cs	marine	denmark	marine	allo	S	-1.98	0.055	-1.313	0.031	NA	163	1721	allo_S	or	ne	allo	allo_S
+cs	marine	geneva	lake	allo	D	-3.235	0.048	-0.035	0.026	NA	738	2515	allo_D	or	sl	allo	allo_D
+cs	marine	geneva	stream	allo	D	-2.805	0.036	-0.325	0.008	NA	754	2519	allo_D	or	sl	allo	allo_D
+cs	marine	hadsten	lake	allo	D	-4.249	0.104	0.688	0.034	NA	1008	2865	allo_D	or	ne	allo	allo_D
+cs	marine	hald	lake	allo	D	-4.518	0.112	0.89	0.035	NA	1036	2878	allo_D	or	ne	allo	allo_D
+cs	marine	japan	japansea	allo	D	-3.063	0.066	0.227	-0.079	NA	1887	3470	allo_D	or	jp	allo	allo_D
+cs	marine	japan	marine	allo	S	-3.354	0.061	0.26	-0.017	NA	1873	3150	allo_S	or	jp	allo	allo_S
+cs	marine	joes	lake	allo	D	-1.554	-0.154	-1.758	0.115	NA	729	2522	allo_D	or	bc	allo	allo_D
+cs	marine	joes	stream	allo	D	-1.754	-0.157	-1.596	0.126	NA	681	2496	allo_D	or	bc	allo	allo_D
+cs	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	7	143	allo_S	or	bc	allo	allo_S
+cs	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	6	651	allo_S	or	ns	allo	allo_S
+cs	marine	mariager	marine	allo	S	-4.252	0.109	0.707	0.021	NA	999	2840	allo_S	or	ne	allo	allo_S
+cs	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	286	allo_S	or	ns	allo	allo_S
+cs	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	205	allo_D	or	ns	allo	allo_D
+cs	marine	misty	lake	allo	D	-1.719	-0.085	-1.063	0.008	NA	791	2576	allo_D	or	bc	allo	allo_D
+cs	marine	misty	stream	allo	D	-2.562	-0.108	-0.133	0.018	NA	784	2568	allo_D	or	bc	allo	allo_D
+cs	marine	ms	marine	allo	S	-3.859	0.068	-0.022	0.124	NA	1051	2667	allo_S	or	or	para	para_S
+cs	marine	mud	lake	allo	D	-0.28	-0.079	-0.629	-0.352	NA	162	2028	allo_D	or	al	allo	allo_D
+cs	marine	pcr	lake	allo	D	-3.192	-0.034	0.296	0.016	NA	1776	2981	allo_D	or	or	para	para_D
+cs	marine	pl	lake	allo	D	-2.783	-0.143	-0.053	0.054	NA	1590	2966	allo_D	or	or	para	para_D
+cs	marine	rab	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	790	allo_S	or	al	allo	allo_S
+cs	marine	rb	stream	allo	D	-2.383	-0.065	-0.794	0.075	NA	1081	2787	allo_D	or	or	para	para_D
+cs	marine	res	marine	allo	S	3.008	-0.077	-5.079	-0.171	NA	109	1820	allo_S	or	al	allo	allo_S
+cs	marine	roberts	lake	allo	D	-2.069	-0.071	-1.09	0.07	NA	795	2578	allo_D	or	bc	allo	allo_D
+cs	marine	roberts	stream	allo	D	-2.186	-0.07	-1.067	0.086	NA	759	2557	allo_D	or	bc	allo	allo_D
+cs	marine	sj	marine	para	S	-3.687	0.028	0.296	0.071	NA	1837	3011	para_S	or	or	para	para_S
+cs	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	447	allo_S	or	ns	allo	allo_S
+cs	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	482	allo_S	or	ns	allo	allo_S
+cs	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	567	allo_D	or	ns	allo	allo_D
+cs	marine	stl	lake	allo	D	-2.908	-0.108	-0.046	0.063	NA	1625	2981	allo_D	or	or	para	para_D
+cs	marine	wc	stream	allo	D	-3.72	0.01	0.516	0.05	NA	1735	2948	allo_D	or	or	para	para_D
+denmark	marine	al	marine	allo	S	-3.15	0.013	-0.097	0.058	NA	1402	2158	allo_S	ne	ns	allo	allo_S
+denmark	marine	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	23	794	allo_D	ne	bc	allo	allo_D
+denmark	marine	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	24	859	allo_D	ne	bc	allo	allo_D
+denmark	marine	cl	marine	allo	S	-2.995	0.059	-0.261	0.025	NA	930	1842	allo_S	ne	ns	allo	allo_S
+denmark	marine	cl	white	allo	D	-3.275	0.055	-0.355	0.101	NA	1434	2220	allo_D	ne	ns	allo	allo_D
+denmark	marine	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	16	509	allo_D	ne	sl	allo	allo_D
+denmark	marine	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	16	544	allo_D	ne	sl	allo	allo_D
+denmark	marine	cp	marine	allo	S	-3.394	0.072	0.139	0.019	NA	2046	2599	allo_S	ne	ns	allo	allo_S
+denmark	marine	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	20	486	allo_D	ne	sl	allo	allo_D
+denmark	marine	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	18	459	allo_D	ne	sl	allo	allo_D
+denmark	marine	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	32	814	allo_D	ne	bc	allo	allo_D
+denmark	marine	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	29	845	allo_D	ne	bc	allo	allo_D
+denmark	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	6	86	allo_S	ne	bc	allo	allo_S
+denmark	marine	ln	marine	allo	S	-2.97	0.048	-0.258	0.027	NA	1641	2333	allo_S	ne	ns	allo	allo_S
+denmark	marine	mh	marine	allo	S	-2.337	0.014	-0.616	-0.019	NA	693	1545	allo_S	ne	ns	allo	allo_S
+denmark	marine	mh	white	allo	D	-1.23	0.012	-1.937	-0.002	NA	403	1219	allo_D	ne	ns	allo	allo_D
+denmark	marine	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	33	1008	allo_D	ne	bc	allo	allo_D
+denmark	marine	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	32	1038	allo_D	ne	bc	allo	allo_D
+denmark	marine	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	33	1105	allo_D	ne	bc	allo	allo_D
+denmark	marine	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	33	1011	allo_D	ne	bc	allo	allo_D
+denmark	marine	sk	marine	allo	S	-3.259	0.039	0.234	-0.003	NA	1095	1925	allo_S	ne	ns	allo	allo_S
+denmark	marine	sr	marine	allo	S	-2.984	0.024	-0.14	0.023	NA	1211	2056	allo_S	ne	ns	allo	allo_S
+denmark	marine	sr	white	allo	D	-3.72	0.041	0.254	0.088	NA	1452	2245	allo_D	ne	ns	allo	allo_D
+geneva	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	141	allo_D	sl	ns	allo	allo_D
+geneva	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	85	allo_D	sl	ns	allo	allo_D
+geneva	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	141	allo_D	sl	ns	allo	allo_D
+geneva	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	259	allo_D	sl	ns	allo	allo_D
+geneva	lake	geneva	stream	para	D	-2.215	0.079	-0.767	-0.073	NA	470	909	para_D	sl	sl	para	para_D
+geneva	lake	joes	lake	allo	S	-1.458	-0.055	-0.956	-0.081	NA	741	1887	allo_S	sl	bc	allo	allo_S
+geneva	lake	joes	stream	allo	D	-1.982	-0.026	-1.059	0.025	NA	706	1859	allo_D	sl	bc	allo	allo_D
+geneva	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	157	allo_D	sl	ns	allo	allo_D
+geneva	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	65	allo_D	sl	ns	allo	allo_D
+geneva	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	43	allo_D	sl	ns	allo	allo_D
+geneva	lake	misty	lake	allo	S	-2.537	-0.039	0.111	-0.075	NA	829	2107	allo_S	sl	bc	allo	allo_S
+geneva	lake	misty	stream	allo	D	-1.852	0.011	-1.155	-0.007	NA	826	2090	allo_D	sl	bc	allo	allo_D
+geneva	lake	roberts	lake	allo	S	-2.535	-0.006	-0.923	0.089	NA	839	2175	allo_S	sl	bc	allo	allo_S
+geneva	lake	roberts	stream	allo	D	-2.26	-0.074	-0.632	0.027	NA	800	2051	allo_D	sl	bc	allo	allo_D
+geneva	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	108	allo_D	sl	ns	allo	allo_D
+geneva	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	113	allo_D	sl	ns	allo	allo_D
+geneva	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	140	allo_D	sl	ns	allo	allo_D
+geneva	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	134	allo_D	sl	ns	allo	allo_D
+geneva	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	81	allo_D	sl	ns	allo	allo_D
+geneva	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	137	allo_D	sl	ns	allo	allo_D
+geneva	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	257	allo_D	sl	ns	allo	allo_D
+geneva	stream	joes	lake	allo	D	-1.365	-0.035	-1.032	-0.103	NA	730	1867	allo_D	sl	bc	allo	allo_D
+geneva	stream	joes	stream	allo	S	-1.742	-0.031	-1.254	0.013	NA	694	1842	allo_S	sl	bc	allo	allo_S
+geneva	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	149	allo_D	sl	ns	allo	allo_D
+geneva	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	59	allo_D	sl	ns	allo	allo_D
+geneva	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	42	allo_D	sl	ns	allo	allo_D
+geneva	stream	misty	lake	allo	D	-2.65	-0.053	0.103	-0.038	NA	822	2100	allo_D	sl	bc	allo	allo_D
+geneva	stream	misty	stream	allo	S	-2.022	-0.018	-0.744	-0.031	NA	815	2084	allo_S	sl	bc	allo	allo_S
+geneva	stream	roberts	lake	allo	D	-2.168	-0.063	-0.776	0.031	NA	835	2155	allo_D	sl	bc	allo	allo_D
+geneva	stream	roberts	stream	allo	S	-2.313	-0.119	-0.433	0.025	NA	795	2038	allo_S	sl	bc	allo	allo_S
+geneva	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	106	allo_D	sl	ns	allo	allo_D
+geneva	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	108	allo_D	sl	ns	allo	allo_D
+geneva	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	139	allo_D	sl	ns	allo	allo_D
+hadsten	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	192	allo_D	ne	ns	allo	allo_D
+hadsten	lake	bea	lake	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	38	1624	allo_S	ne	al	allo	allo_S
+hadsten	lake	boot	lake	allo	S	-4.029	0.046	0.663	0.052	NA	510	2145	allo_S	ne	bc	allo	allo_S
+hadsten	lake	boot	stream	allo	D	-2.468	-0.038	-1.033	0.112	NA	369	2031	allo_D	ne	bc	allo	allo_D
+hadsten	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	129	allo_D	ne	ns	allo	allo_D
+hadsten	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	212	allo_D	ne	ns	allo	allo_D
+hadsten	lake	constance	lake	allo	S	-1.927	0.094	-1.295	-0.041	NA	501	1782	allo_S	ne	sl	allo	allo_S
+hadsten	lake	constance	stream	allo	D	-2.099	0.104	-1.093	-0.063	NA	514	1816	allo_D	ne	sl	allo	allo_D
+hadsten	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	381	allo_D	ne	ns	allo	allo_D
+hadsten	lake	denmark	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	46	679	allo_D	ne	ne	para	para_D
+hadsten	lake	geneva	lake	allo	S	-1.927	0.077	-1.509	0.017	NA	488	1724	allo_S	ne	sl	allo	allo_S
+hadsten	lake	geneva	stream	allo	D	-2.327	0.063	-1.103	0.029	NA	498	1709	allo_D	ne	sl	allo	allo_D
+hadsten	lake	hald	lake	allo	S	-4.005	0.056	0.751	0.021	NA	1317	2241	allo_S	ne	ne	para	para_S
+hadsten	lake	japan	japansea	allo	D	-3.12	-0.005	0.37	-0.033	NA	1499	3286	allo_D	ne	jp	allo	allo_D
+hadsten	lake	japan	marine	allo	D	-3.633	0.101	0.191	0.014	NA	1404	2609	allo_D	ne	jp	allo	allo_D
+hadsten	lake	joes	lake	allo	S	-2.881	0.048	-0.532	0.054	NA	503	2185	allo_S	ne	bc	allo	allo_S
+hadsten	lake	joes	stream	allo	D	-3.748	0.03	0.152	0.098	NA	460	2154	allo_D	ne	bc	allo	allo_D
+hadsten	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	63	allo_D	ne	bc	allo	allo_D
+hadsten	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	250	allo_D	ne	ns	allo	allo_D
+hadsten	lake	mariager	marine	allo	D	-3.898	0.06	0.794	-0.014	NA	1273	2270	allo_D	ne	ne	para	para_D
+hadsten	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	102	allo_D	ne	ns	allo	allo_D
+hadsten	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	62	allo_D	ne	ns	allo	allo_D
+hadsten	lake	misty	lake	allo	S	-2.863	0.036	-0.453	0.04	NA	536	2394	allo_S	ne	bc	allo	allo_S
+hadsten	lake	misty	stream	allo	D	-3.428	0.028	0.048	0.062	NA	537	2368	allo_D	ne	bc	allo	allo_D
+hadsten	lake	mud	lake	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	58	1722	allo_S	ne	al	allo	allo_S
+hadsten	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	410	allo_D	ne	al	allo	allo_D
+hadsten	lake	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	41	1387	allo_D	ne	al	allo	allo_D
+hadsten	lake	roberts	lake	allo	S	-3.554	0.048	-0.297	0.127	NA	537	2453	allo_S	ne	bc	allo	allo_S
+hadsten	lake	roberts	stream	allo	D	-2.481	0.019	-1.154	0.105	NA	529	2341	allo_D	ne	bc	allo	allo_D
+hadsten	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	159	allo_D	ne	ns	allo	allo_D
+hadsten	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	174	allo_D	ne	ns	allo	allo_D
+hadsten	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	199	allo_D	ne	ns	allo	allo_D
+hald	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	235	allo_D	ne	ns	allo	allo_D
+hald	lake	bea	lake	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	41	1726	allo_S	ne	al	allo	allo_S
+hald	lake	boot	lake	allo	S	-3.03	-0.001	0.342	-0.04	NA	523	2274	allo_S	ne	bc	allo	allo_S
+hald	lake	boot	stream	allo	D	-2.651	-0.019	-0.816	0.102	NA	386	2185	allo_D	ne	bc	allo	allo_D
+hald	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	154	allo_D	ne	ns	allo	allo_D
+hald	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	257	allo_D	ne	ns	allo	allo_D
+hald	lake	constance	lake	allo	S	-3.093	0.077	-0.118	-0.014	NA	535	1879	allo_S	ne	sl	allo	allo_S
+hald	lake	constance	stream	allo	D	-1.324	0.079	-1.91	-0.033	NA	541	1911	allo_D	ne	sl	allo	allo_D
+hald	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	421	allo_D	ne	ns	allo	allo_D
+hald	lake	denmark	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	45	794	allo_D	ne	ne	para	para_D
+hald	lake	geneva	lake	allo	S	-1.784	0.035	-1.438	0.015	NA	525	1855	allo_S	ne	sl	allo	allo_S
+hald	lake	geneva	stream	allo	D	-3.233	0.036	-0.105	0.047	NA	537	1847	allo_D	ne	sl	allo	allo_D
+hald	lake	japan	japansea	allo	D	-2.47	0.015	-0.343	-0.043	NA	1520	3347	allo_D	ne	jp	allo	allo_D
+hald	lake	japan	marine	allo	D	-3.708	0.084	0.283	0.03	NA	1461	2752	allo_D	ne	jp	allo	allo_D
+hald	lake	joes	lake	allo	S	-2.504	0.001	-0.663	0.04	NA	524	2276	allo_S	ne	bc	allo	allo_S
+hald	lake	joes	stream	allo	D	-2.905	0.025	-0.415	0.053	NA	472	2254	allo_D	ne	bc	allo	allo_D
+hald	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	77	allo_D	ne	bc	allo	allo_D
+hald	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	292	allo_D	ne	ns	allo	allo_D
+hald	lake	mariager	marine	allo	D	-3.329	0.044	0.218	0.001	NA	1334	2396	allo_D	ne	ne	para	para_D
+hald	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	124	allo_D	ne	ns	allo	allo_D
+hald	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	91	allo_D	ne	ns	allo	allo_D
+hald	lake	misty	lake	allo	S	-3.046	0.05	-0.208	0.019	NA	557	2495	allo_S	ne	bc	allo	allo_S
+hald	lake	misty	stream	allo	D	-3.123	0.044	-0.069	0.018	NA	561	2484	allo_D	ne	bc	allo	allo_D
+hald	lake	mud	lake	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	60	1823	allo_S	ne	al	allo	allo_S
+hald	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	490	allo_D	ne	al	allo	allo_D
+hald	lake	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	47	1508	allo_D	ne	al	allo	allo_D
+hald	lake	roberts	lake	allo	S	-1.809	0.026	-1.175	-0.024	NA	556	2552	allo_S	ne	bc	allo	allo_S
+hald	lake	roberts	stream	allo	D	-1.642	0.023	-1.31	-0.025	NA	542	2451	allo_D	ne	bc	allo	allo_D
+hald	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	184	allo_D	ne	ns	allo	allo_D
+hald	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	219	allo_D	ne	ns	allo	allo_D
+hald	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	237	allo_D	ne	ns	allo	allo_D
+japan	japansea	al	marine	allo	D	-3.623	0.056	0.767	-0.056	NA	3420	3796	allo_D	jp	ns	allo	allo_D
+japan	japansea	boot	lake	allo	D	-2.862	0.045	0.064	-0.064	NA	963	3084	allo_D	jp	bc	allo	allo_D
+japan	japansea	boot	stream	allo	D	-2.984	0.068	-0.266	0.007	NA	821	3080	allo_D	jp	bc	allo	allo_D
+japan	japansea	cl	marine	allo	D	-3.299	0.08	0.313	-0.05	NA	3048	3725	allo_D	jp	ns	allo	allo_D
+japan	japansea	cl	white	allo	D	-3.588	0.068	0.723	-0.064	NA	3421	3798	allo_D	jp	ns	allo	allo_D
+japan	japansea	constance	lake	allo	D	-2.327	0.062	-0.399	-0.102	NA	983	3076	allo_D	jp	sl	allo	allo_D
+japan	japansea	constance	stream	allo	D	-2.007	0.072	-0.679	-0.13	NA	995	3092	allo_D	jp	sl	allo	allo_D
+japan	japansea	cp	marine	allo	D	-3.023	0.025	0.38	-0.088	NA	3660	3838	allo_D	jp	ns	allo	allo_D
+japan	japansea	denmark	marine	allo	D	-3.452	0.064	0.56	-0.055	NA	3690	3847	allo_D	jp	ne	allo	allo_D
+japan	japansea	geneva	lake	allo	D	-2.753	0.06	-0.088	-0.073	NA	993	3050	allo_D	jp	sl	allo	allo_D
+japan	japansea	geneva	stream	allo	D	-2.89	0.073	0.012	-0.075	NA	1005	3046	allo_D	jp	sl	allo	allo_D
+japan	japansea	joes	lake	allo	D	-1.918	0.053	-1.305	-0.004	NA	957	3076	allo_D	jp	bc	allo	allo_D
+japan	japansea	joes	stream	allo	D	-2.476	0.058	-0.682	-0.009	NA	904	3068	allo_D	jp	bc	allo	allo_D
+japan	japansea	litcampbell	marine	allo	D	-1.358	-0.058	-1.022	-0.039	NA	234	1032	allo_D	jp	bc	allo	allo_D
+japan	japansea	ln	marine	allo	D	-3.014	0.054	0.307	-0.098	NA	3526	3814	allo_D	jp	ns	allo	allo_D
+japan	japansea	mh	marine	allo	D	-3.871	0.058	1.073	-0.068	NA	2770	3661	allo_D	jp	ns	allo	allo_D
+japan	japansea	mh	white	allo	D	-3.261	0.04	0.562	-0.078	NA	2227	3511	allo_D	jp	ns	allo	allo_D
+japan	japansea	misty	lake	allo	D	-2.888	0.071	-0.085	-0.057	NA	1015	3174	allo_D	jp	bc	allo	allo_D
+japan	japansea	misty	stream	allo	D	-2.627	0.085	-0.572	-0.027	NA	1011	3171	allo_D	jp	bc	allo	allo_D
+japan	japansea	roberts	lake	allo	D	-3.152	0.04	0.453	-0.081	NA	1027	3204	allo_D	jp	bc	allo	allo_D
+japan	japansea	roberts	stream	allo	D	-2.469	0.024	-0.442	-0.027	NA	1003	3179	allo_D	jp	bc	allo	allo_D
+japan	japansea	sk	marine	allo	D	-3.54	0.041	0.609	-0.025	NA	3228	3764	allo_D	jp	ns	allo	allo_D
+japan	japansea	sr	marine	allo	D	-3.363	0.062	0.592	-0.085	NA	3300	3774	allo_D	jp	ns	allo	allo_D
+japan	japansea	sr	white	allo	D	-3.158	0.048	0.645	-0.14	NA	3433	3793	allo_D	jp	ns	allo	allo_D
+japan	marine	al	marine	allo	S	-4.492	0.078	1.089	0.051	NA	3297	3552	allo_S	jp	ns	allo	allo_S
+japan	marine	boot	lake	allo	D	-3.693	0.015	0.416	0.055	NA	900	2321	allo_D	jp	bc	allo	allo_D
+japan	marine	boot	stream	allo	D	-2.939	0.017	-0.38	0.057	NA	793	2408	allo_D	jp	bc	allo	allo_D
+japan	marine	cl	marine	allo	S	-4.067	0.097	0.648	0.034	NA	2909	3359	allo_S	jp	ns	allo	allo_S
+japan	marine	cl	white	allo	D	-4.239	0.086	0.849	0.039	NA	3310	3568	allo_D	jp	ns	allo	allo_D
+japan	marine	constance	lake	allo	D	-3.761	0.055	0.332	0.055	NA	906	2279	allo_D	jp	sl	allo	allo_D
+japan	marine	constance	stream	allo	D	-3.458	0.098	0.265	-0.039	NA	928	2311	allo_D	jp	sl	allo	allo_D
+japan	marine	cp	marine	allo	S	-4.323	0.093	0.933	0.035	NA	3583	3695	allo_S	jp	ns	allo	allo_S
+japan	marine	denmark	marine	allo	S	-4.357	0.102	0.879	0.048	NA	3563	3677	allo_S	jp	ne	allo	allo_S
+japan	marine	geneva	lake	allo	D	-3.699	0.095	0.008	0.062	NA	912	2191	allo_D	jp	sl	allo	allo_D
+japan	marine	geneva	stream	allo	D	-3.21	0.112	-0.385	0.023	NA	912	2182	allo_D	jp	sl	allo	allo_D
+japan	marine	japan	japansea	allo	D	-2.9	0.037	0.194	-0.086	NA	3857	3866	allo_D	jp	jp	para	para_D
+japan	marine	joes	lake	allo	D	-2.774	-0.007	-0.078	-0.012	NA	894	2392	allo_D	jp	bc	allo	allo_D
+japan	marine	joes	stream	allo	D	-2.821	0.006	-0.057	-0.014	NA	842	2381	allo_D	jp	bc	allo	allo_D
+japan	marine	litcampbell	marine	allo	S	-0.897	-0.086	-1.535	-0.008	NA	213	529	allo_S	jp	bc	allo	allo_S
+japan	marine	ln	marine	allo	S	-4.316	0.102	0.756	0.062	NA	3424	3608	allo_S	jp	ns	allo	allo_S
+japan	marine	mh	marine	allo	S	-4.286	0.086	0.924	0.035	NA	2622	3216	allo_S	jp	ns	allo	allo_S
+japan	marine	mh	white	allo	D	-4.843	0.074	1.507	0.041	NA	2057	2860	allo_D	jp	ns	allo	allo_D
+japan	marine	misty	lake	allo	D	-2.78	-0.059	0.068	-0.003	NA	982	2599	allo_D	jp	bc	allo	allo_D
+japan	marine	misty	stream	allo	D	-2.803	-0.014	-0.166	0.014	NA	975	2608	allo_D	jp	bc	allo	allo_D
+japan	marine	roberts	lake	allo	D	-3.035	-0.006	0.099	0.006	NA	1007	2686	allo_D	jp	bc	allo	allo_D
+japan	marine	roberts	stream	allo	D	-3.202	-0.038	0.071	0.063	NA	967	2579	allo_D	jp	bc	allo	allo_D
+japan	marine	sk	marine	allo	S	-4.574	0.097	1.15	0.037	NA	3084	3451	allo_S	jp	ns	allo	allo_S
+japan	marine	sr	marine	allo	S	-4.041	0.098	0.523	0.053	NA	3176	3495	allo_S	jp	ns	allo	allo_S
+japan	marine	sr	white	allo	D	-3.915	0.078	0.736	0	NA	3307	3552	allo_D	jp	ns	allo	allo_D
+joes	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	201	allo_D	bc	ns	allo	allo_D
+joes	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	136	allo_D	bc	ns	allo	allo_D
+joes	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	212	allo_D	bc	ns	allo	allo_D
+joes	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	378	allo_D	bc	ns	allo	allo_D
+joes	lake	joes	stream	para	D	-2.383	-0.065	-0.449	0.015	NA	556	1269	para_D	bc	bc	para	para_D
+joes	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	232	allo_D	bc	ns	allo	allo_D
+joes	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	103	allo_D	bc	ns	allo	allo_D
+joes	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	79	allo_D	bc	ns	allo	allo_D
+joes	lake	misty	lake	allo	S	-3.062	0.019	-0.446	0.091	NA	807	2007	allo_S	bc	bc	para	para_S
+joes	lake	misty	stream	allo	D	-2.855	0.045	-0.457	0.036	NA	804	1984	allo_D	bc	bc	para	para_D
+joes	lake	roberts	lake	allo	S	-2.901	0.004	-0.929	0.15	NA	846	2124	allo_S	bc	bc	para	para_S
+joes	lake	roberts	stream	allo	D	-3.537	-0.011	-0.109	0.135	NA	793	2011	allo_D	bc	bc	para	para_D
+joes	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	161	allo_D	bc	ns	allo	allo_D
+joes	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	173	allo_D	bc	ns	allo	allo_D
+joes	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	211	allo_D	bc	ns	allo	allo_D
+joes	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	200	allo_D	bc	ns	allo	allo_D
+joes	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	137	allo_D	bc	ns	allo	allo_D
+joes	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	209	allo_D	bc	ns	allo	allo_D
+joes	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	375	allo_D	bc	ns	allo	allo_D
+joes	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	234	allo_D	bc	ns	allo	allo_D
+joes	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	104	allo_D	bc	ns	allo	allo_D
+joes	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	80	allo_D	bc	ns	allo	allo_D
+joes	stream	misty	lake	allo	D	-2.347	-0.007	-1.25	0.114	NA	763	1989	allo_D	bc	bc	para	para_D
+joes	stream	misty	stream	allo	S	-2.505	0.004	-0.884	0.075	NA	764	1983	allo_S	bc	bc	para	para_S
+joes	stream	roberts	lake	allo	D	-3.039	-0.092	-0.319	0.125	NA	804	2122	allo_D	bc	bc	para	para_D
+joes	stream	roberts	stream	allo	S	-3.598	-0.032	-0.046	0.148	NA	764	1981	allo_S	bc	bc	para	para_S
+joes	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	160	allo_D	bc	ns	allo	allo_D
+joes	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	174	allo_D	bc	ns	allo	allo_D
+joes	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	203	allo_D	bc	ns	allo	allo_D
+litcampbell	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	23	153	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	54	allo_D	bc	bc	para	para_D
+litcampbell	marine	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	50	allo_D	bc	bc	para	para_D
+litcampbell	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	10	114	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	24	148	allo_D	bc	ns	allo	allo_D
+litcampbell	marine	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	43	allo_D	bc	sl	allo	allo_D
+litcampbell	marine	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	44	allo_D	bc	sl	allo	allo_D
+litcampbell	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	51	192	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	44	allo_D	bc	sl	allo	allo_D
+litcampbell	marine	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	48	allo_D	bc	sl	allo	allo_D
+litcampbell	marine	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	53	allo_D	bc	bc	para	para_D
+litcampbell	marine	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	50	allo_D	bc	bc	para	para_D
+litcampbell	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	34	163	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	5	100	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	71	allo_D	bc	ns	allo	allo_D
+litcampbell	marine	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	75	allo_D	bc	bc	para	para_D
+litcampbell	marine	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	73	allo_D	bc	bc	para	para_D
+litcampbell	marine	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	73	allo_D	bc	bc	para	para_D
+litcampbell	marine	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	56	allo_D	bc	bc	para	para_D
+litcampbell	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	16	117	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	20	135	allo_S	bc	ns	allo	allo_S
+litcampbell	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	27	157	allo_D	bc	ns	allo	allo_D
+ln	marine	mh	marine	allo	S	-4.249	0.123	0.731	0.022	NA	2233	2566	allo_S	ns	ns	para	para_S
+ln	marine	mh	white	allo	D	-4.349	0.098	0.807	0.056	NA	1710	2162	allo_D	ns	ns	para	para_D
+ln	marine	sk	marine	para	S	-4.305	0.116	0.761	0.039	NA	2709	2926	para_S	ns	ns	para	para_S
+ln	marine	sr	marine	allo	S	-3.968	0.124	0.403	0.033	NA	2831	3038	allo_S	ns	ns	para	para_S
+ln	marine	sr	white	allo	D	-3.722	0.101	0.278	0.031	NA	2981	3150	allo_D	ns	ns	para	para_D
+lq	benthic	al	marine	allo	D	-2.484	-0.102	-0.244	0.008	NA	1212	2384	allo_D	bc	ns	allo	allo_D
+lq	benthic	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	221	allo_D	bc	al	allo	allo_D
+lq	benthic	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	302	allo_D	bc	bc	para	para_D
+lq	benthic	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	281	allo_D	bc	bc	para	para_D
+lq	benthic	cl	marine	allo	D	-2.942	-0.066	0.31	-0.021	NA	846	2084	allo_D	bc	ns	allo	allo_D
+lq	benthic	cl	white	allo	D	-2.716	-0.073	0.142	-0.034	NA	1216	2370	allo_D	bc	ns	allo	allo_D
+lq	benthic	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	326	allo_D	bc	sl	allo	allo_D
+lq	benthic	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	339	allo_D	bc	sl	allo	allo_D
+lq	benthic	cp	marine	allo	D	-2.765	-0.126	0.251	-0.02	NA	1699	2724	allo_D	bc	ns	allo	allo_D
+lq	benthic	cr	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	536	allo_D	bc	or	allo	allo_D
+lq	benthic	cs	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	684	allo_D	bc	or	allo	allo_D
+lq	benthic	denmark	marine	allo	D	-2.177	-0.38	-0.057	-0.016	NA	652	2075	allo_D	bc	ne	allo	allo_D
+lq	benthic	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	293	allo_D	bc	sl	allo	allo_D
+lq	benthic	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	296	allo_D	bc	sl	allo	allo_D
+lq	benthic	hadsten	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	457	allo_D	bc	ne	allo	allo_D
+lq	benthic	hald	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	512	allo_D	bc	ne	allo	allo_D
+lq	benthic	japan	japansea	allo	D	-3.258	0.037	0.451	-0.056	NA	2920	3709	allo_D	bc	jp	allo	allo_D
+lq	benthic	japan	marine	allo	D	-2.266	-0.131	-0.179	-0.043	NA	2854	3409	allo_D	bc	jp	allo	allo_D
+lq	benthic	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	294	allo_D	bc	bc	para	para_D
+lq	benthic	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	279	allo_D	bc	bc	para	para_D
+lq	benthic	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	16	144	allo_D	bc	bc	para	para_D
+lq	benthic	ln	marine	allo	D	-2.656	-0.126	0.041	-0.001	NA	1372	2506	allo_D	bc	ns	allo	allo_D
+lq	benthic	lq	limnetic	para	D	-2.68	-0.186	0.376	-0.031	NA	783	1882	para_D	bc	bc	para	para_D
+lq	benthic	mariager	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	503	allo_D	bc	ne	allo	allo_D
+lq	benthic	mh	marine	allo	D	-2.897	-0.179	0.419	0.001	NA	624	1880	allo_D	bc	ns	allo	allo_D
+lq	benthic	mh	white	allo	D	-1.963	-0.036	-0.886	-0.009	NA	405	1585	allo_D	bc	ns	allo	allo_D
+lq	benthic	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	353	allo_D	bc	bc	para	para_D
+lq	benthic	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	354	allo_D	bc	bc	para	para_D
+lq	benthic	ms	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	467	allo_D	bc	or	allo	allo_D
+lq	benthic	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	255	allo_D	bc	al	allo	allo_D
+lq	benthic	pcr	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	631	allo_D	bc	or	allo	allo_D
+lq	benthic	pl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	504	allo_D	bc	or	allo	allo_D
+lq	benthic	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	68	allo_D	bc	al	allo	allo_D
+lq	benthic	rb	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	505	allo_D	bc	or	allo	allo_D
+lq	benthic	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	216	allo_D	bc	al	allo	allo_D
+lq	benthic	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	396	allo_D	bc	bc	para	para_D
+lq	benthic	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	342	allo_D	bc	bc	para	para_D
+lq	benthic	sj	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	679	allo_D	bc	or	allo	allo_D
+lq	benthic	sk	marine	allo	D	-3.471	-0.028	0.536	0.023	NA	1030	2227	allo_D	bc	ns	allo	allo_D
+lq	benthic	sr	marine	allo	D	-2.864	-0.077	0.216	-0.012	NA	1084	2302	allo_D	bc	ns	allo	allo_D
+lq	benthic	sr	white	allo	D	-3.017	-0.064	0.455	-0.036	NA	1226	2363	allo_D	bc	ns	allo	allo_D
+lq	benthic	stl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	492	allo_D	bc	or	allo	allo_D
+lq	benthic	wc	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	633	allo_D	bc	or	allo	allo_D
+lq	limnetic	al	marine	allo	D	-5.077	-0.044	1.9	0.087	NA	188	1239	allo_D	bc	ns	allo	allo_D
+lq	limnetic	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	63	allo_D	bc	al	allo	allo_D
+lq	limnetic	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	78	allo_D	bc	bc	para	para_D
+lq	limnetic	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	74	allo_D	bc	bc	para	para_D
+lq	limnetic	cl	marine	allo	D	-2.648	-0.032	-0.286	0.036	NA	141	1164	allo_D	bc	ns	allo	allo_D
+lq	limnetic	cl	white	allo	D	-1.585	-0.062	-1.635	0.047	NA	200	1266	allo_D	bc	ns	allo	allo_D
+lq	limnetic	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	81	allo_D	bc	sl	allo	allo_D
+lq	limnetic	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	83	allo_D	bc	sl	allo	allo_D
+lq	limnetic	cp	marine	allo	D	-4.164	0.08	0.998	0.005	NA	273	1374	allo_D	bc	ns	allo	allo_D
+lq	limnetic	cr	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	157	allo_D	bc	or	allo	allo_D
+lq	limnetic	cs	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	210	allo_D	bc	or	allo	allo_D
+lq	limnetic	denmark	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	56	981	allo_D	bc	ne	allo	allo_D
+lq	limnetic	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	70	allo_D	bc	sl	allo	allo_D
+lq	limnetic	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	70	allo_D	bc	sl	allo	allo_D
+lq	limnetic	hadsten	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	126	allo_D	bc	ne	allo	allo_D
+lq	limnetic	hald	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	145	allo_D	bc	ne	allo	allo_D
+lq	limnetic	japan	japansea	allo	D	-3.823	0.065	1.268	-0.134	NA	938	3070	allo_D	bc	jp	allo	allo_D
+lq	limnetic	japan	marine	allo	D	-2.972	-0.028	0.571	-0.092	NA	885	2340	allo_D	bc	jp	allo	allo_D
+lq	limnetic	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	77	allo_D	bc	bc	para	para_D
+lq	limnetic	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	73	allo_D	bc	bc	para	para_D
+lq	limnetic	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	48	allo_D	bc	bc	para	para_D
+lq	limnetic	ln	marine	allo	D	-2.395	0.067	-1.213	0.067	NA	214	1289	allo_D	bc	ns	allo	allo_D
+lq	limnetic	mariager	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	148	allo_D	bc	ne	allo	allo_D
+lq	limnetic	mh	marine	allo	D	-0.965	-0.03	-2.529	0.093	NA	101	1035	allo_D	bc	ns	allo	allo_D
+lq	limnetic	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	63	866	allo_D	bc	ns	allo	allo_D
+lq	limnetic	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	107	allo_D	bc	bc	para	para_D
+lq	limnetic	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	113	allo_D	bc	bc	para	para_D
+lq	limnetic	ms	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	143	allo_D	bc	or	allo	allo_D
+lq	limnetic	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	72	allo_D	bc	al	allo	allo_D
+lq	limnetic	pcr	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	200	allo_D	bc	or	allo	allo_D
+lq	limnetic	pl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	150	allo_D	bc	or	allo	allo_D
+lq	limnetic	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	21	allo_D	bc	al	allo	allo_D
+lq	limnetic	rb	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	138	allo_D	bc	or	allo	allo_D
+lq	limnetic	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	64	allo_D	bc	al	allo	allo_D
+lq	limnetic	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	121	allo_D	bc	bc	para	para_D
+lq	limnetic	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	100	allo_D	bc	bc	para	para_D
+lq	limnetic	sj	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	216	allo_D	bc	or	allo	allo_D
+lq	limnetic	sk	marine	allo	D	-1.011	0.095	-2.641	0.025	NA	148	1157	allo_D	bc	ns	allo	allo_D
+lq	limnetic	sr	marine	allo	D	-2.902	0.083	-0.656	0.059	NA	171	1224	allo_D	bc	ns	allo	allo_D
+lq	limnetic	sr	white	allo	D	-5.806	0.089	2.015	0.138	NA	201	1272	allo_D	bc	ns	allo	allo_D
+lq	limnetic	stl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	138	allo_D	bc	or	allo	allo_D
+lq	limnetic	wc	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	216	allo_D	bc	or	allo	allo_D
+mariager	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	235	allo_S	ne	ns	allo	allo_S
+mariager	marine	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	39	1756	allo_D	ne	al	allo	allo_D
+mariager	marine	boot	lake	allo	D	-3.251	0.039	0.559	-0.074	NA	526	2269	allo_D	ne	bc	allo	allo_D
+mariager	marine	boot	stream	allo	D	-1.698	-0.026	-1.333	0.014	NA	399	2223	allo_D	ne	bc	allo	allo_D
+mariager	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	148	allo_S	ne	ns	allo	allo_S
+mariager	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	259	allo_D	ne	ns	allo	allo_D
+mariager	marine	constance	lake	allo	D	-1.046	0.094	-2.21	-0.053	NA	526	1909	allo_D	ne	sl	allo	allo_D
+mariager	marine	constance	stream	allo	D	-2.114	0.061	-0.954	-0.041	NA	540	1925	allo_D	ne	sl	allo	allo_D
+mariager	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	4	404	allo_S	ne	ns	allo	allo_S
+mariager	marine	denmark	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	40	842	allo_S	ne	ne	para	para_S
+mariager	marine	geneva	lake	allo	D	-2.364	0.08	-1.133	0.031	NA	532	1880	allo_D	ne	sl	allo	allo_D
+mariager	marine	geneva	stream	allo	D	-3.448	0.078	-0.522	0.121	NA	535	1872	allo_D	ne	sl	allo	allo_D
+mariager	marine	japan	japansea	allo	D	-2.875	0.035	-0.176	-0.005	NA	1428	3347	allo_D	ne	jp	allo	allo_D
+mariager	marine	japan	marine	allo	S	-3.709	0.101	0.441	-0.02	NA	1390	2789	allo_S	ne	jp	allo	allo_S
+mariager	marine	joes	lake	allo	D	-2.368	-0.012	-0.875	0.059	NA	524	2293	allo_D	ne	bc	allo	allo_D
+mariager	marine	joes	stream	allo	D	-1.765	-0.017	-1.599	0.074	NA	483	2272	allo_D	ne	bc	allo	allo_D
+mariager	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	2	73	allo_S	ne	bc	allo	allo_S
+mariager	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	285	allo_S	ne	ns	allo	allo_S
+mariager	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	117	allo_S	ne	ns	allo	allo_S
+mariager	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	80	allo_D	ne	ns	allo	allo_D
+mariager	marine	misty	lake	allo	D	-2.94	0.047	-0.324	0.027	NA	566	2482	allo_D	ne	bc	allo	allo_D
+mariager	marine	misty	stream	allo	D	-2.481	0.066	-0.82	0.014	NA	561	2468	allo_D	ne	bc	allo	allo_D
+mariager	marine	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	60	1872	allo_D	ne	al	allo	allo_D
+mariager	marine	rab	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	522	allo_S	ne	al	allo	allo_S
+mariager	marine	res	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	45	1525	allo_S	ne	al	allo	allo_S
+mariager	marine	roberts	lake	allo	D	-1.418	0.04	-2.247	0.079	NA	570	2552	allo_D	ne	bc	allo	allo_D
+mariager	marine	roberts	stream	allo	D	-2.276	0.031	-1.127	0.055	NA	551	2462	allo_D	ne	bc	allo	allo_D
+mariager	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	185	allo_S	ne	ns	allo	allo_S
+mariager	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	205	allo_S	ne	ns	allo	allo_S
+mariager	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	236	allo_D	ne	ns	allo	allo_D
+mh	marine	mh	white	para	D	-4.033	0.095	0.623	0.031	NA	1652	2096	para_D	ns	ns	para	para_D
+mh	marine	sk	marine	allo	S	-4.563	0.112	1.027	0.04	NA	2189	2543	allo_S	ns	ns	para	para_S
+mh	marine	sr	marine	para	S	-4.166	0.122	0.592	0.035	NA	2213	2576	para_S	ns	ns	para	para_S
+mh	marine	sr	white	para	D	-4.486	0.118	0.98	0.025	NA	2208	2552	para_D	ns	ns	para	para_D
+mh	white	sk	marine	allo	D	-4.115	0.095	0.704	0.032	NA	1704	2157	allo_D	ns	ns	para	para_D
+mh	white	sr	marine	para	D	-4.028	0.099	0.605	0.029	NA	1704	2158	para_D	ns	ns	para	para_D
+mh	white	sr	white	para	S	-4.308	0.099	0.75	0.058	NA	1687	2123	para_S	ns	ns	para	para_S
+misty	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	280	allo_D	bc	ns	allo	allo_D
+misty	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	175	allo_D	bc	ns	allo	allo_D
+misty	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	286	allo_D	bc	ns	allo	allo_D
+misty	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	464	allo_D	bc	ns	allo	allo_D
+misty	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	320	allo_D	bc	ns	allo	allo_D
+misty	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	139	allo_D	bc	ns	allo	allo_D
+misty	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	97	allo_D	bc	ns	allo	allo_D
+misty	lake	misty	stream	para	D	-3.555	0.01	0.124	0.085	NA	856	1942	para_D	bc	bc	para	para_D
+misty	lake	roberts	lake	allo	S	-3.104	0.009	-0.767	0.153	NA	900	2265	allo_S	bc	bc	para	para_S
+misty	lake	roberts	stream	allo	D	-3.265	0	-0.551	0.155	NA	869	2204	allo_D	bc	bc	para	para_D
+misty	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	216	allo_D	bc	ns	allo	allo_D
+misty	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	245	allo_D	bc	ns	allo	allo_D
+misty	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	289	allo_D	bc	ns	allo	allo_D
+misty	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	278	allo_D	bc	ns	allo	allo_D
+misty	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	177	allo_D	bc	ns	allo	allo_D
+misty	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	282	allo_D	bc	ns	allo	allo_D
+misty	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	467	allo_D	bc	ns	allo	allo_D
+misty	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	321	allo_D	bc	ns	allo	allo_D
+misty	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	140	allo_D	bc	ns	allo	allo_D
+misty	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	95	allo_D	bc	ns	allo	allo_D
+misty	stream	roberts	lake	allo	D	-2.781	0.01	-0.811	0.105	NA	893	2245	allo_D	bc	bc	para	para_D
+misty	stream	roberts	stream	allo	S	-3.03	-0.065	-0.385	0.124	NA	865	2202	allo_S	bc	bc	para	para_S
+misty	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	214	allo_D	bc	ns	allo	allo_D
+misty	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	245	allo_D	bc	ns	allo	allo_D
+misty	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	282	allo_D	bc	ns	allo	allo_D
+ms	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	352	allo_S	or	ns	allo	allo_S
+ms	marine	bea	lake	allo	D	2.326	-0.018	-5.641	-0.022	NA	105	1818	allo_D	or	al	allo	allo_D
+ms	marine	boot	lake	allo	D	-4.007	0	0.476	0.113	NA	690	2268	allo_D	or	bc	allo	allo_D
+ms	marine	boot	stream	allo	D	-3.612	-0.077	-0.278	0.198	NA	568	2260	allo_D	or	bc	allo	allo_D
+ms	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	229	allo_S	or	ns	allo	allo_S
+ms	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	346	allo_D	or	ns	allo	allo_D
+ms	marine	constance	lake	allo	D	-3.095	0.065	0.439	-0.115	NA	692	2277	allo_D	or	sl	allo	allo_D
+ms	marine	constance	stream	allo	D	-3.218	0.079	0.191	-0.053	NA	700	2293	allo_D	or	sl	allo	allo_D
+ms	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	539	allo_S	or	ns	allo	allo_S
+ms	marine	denmark	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	34	1213	allo_S	or	ne	allo	allo_S
+ms	marine	geneva	lake	allo	D	-2.459	0.065	-0.262	-0.107	NA	688	2235	allo_D	or	sl	allo	allo_D
+ms	marine	geneva	stream	allo	D	-2.021	0.022	-0.397	-0.137	NA	695	2234	allo_D	or	sl	allo	allo_D
+ms	marine	hadsten	lake	allo	D	-4.602	0.125	0.915	0.03	NA	593	2545	allo_D	or	ne	allo	allo_D
+ms	marine	hald	lake	allo	D	-4.165	0.083	0.842	0.007	NA	614	2598	allo_D	or	ne	allo	allo_D
+ms	marine	japan	japansea	allo	D	-2.634	0.098	-0.36	-0.082	NA	1103	3241	allo_D	or	jp	allo	allo_D
+ms	marine	japan	marine	allo	S	-3.531	0.06	0.214	0.029	NA	1091	2764	allo_S	or	jp	allo	allo_S
+ms	marine	joes	lake	allo	D	-1.927	-0.085	-1.709	0.143	NA	695	2305	allo_D	or	bc	allo	allo_D
+ms	marine	joes	stream	allo	D	-2.223	-0.079	-1.461	0.15	NA	660	2296	allo_D	or	bc	allo	allo_D
+ms	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	79	allo_S	or	bc	allo	allo_S
+ms	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	409	allo_S	or	ns	allo	allo_S
+ms	marine	mariager	marine	allo	S	-3.737	0.116	0.29	-0.006	NA	605	2573	allo_S	or	ne	allo	allo_S
+ms	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	178	allo_S	or	ns	allo	allo_S
+ms	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	129	allo_D	or	ns	allo	allo_D
+ms	marine	misty	lake	allo	D	-3.588	-0.094	0.882	0.021	NA	748	2398	allo_D	or	bc	allo	allo_D
+ms	marine	misty	stream	allo	D	-3.753	-0.029	0.736	0.039	NA	754	2397	allo_D	or	bc	allo	allo_D
+ms	marine	mud	lake	allo	D	0.727	-0.073	-2.77	-0.175	NA	136	1929	allo_D	or	al	allo	allo_D
+ms	marine	pcr	lake	allo	D	-2.832	-0.05	-0.34	0.074	NA	1061	2689	allo_D	or	or	para	para_D
+ms	marine	pl	lake	allo	D	-1.586	-0.116	-1.478	0.064	NA	918	2657	allo_D	or	or	para	para_D
+ms	marine	rab	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	695	allo_S	or	al	allo	allo_S
+ms	marine	rb	stream	allo	D	-2.477	-0.062	-1.008	0.124	NA	1028	2607	allo_D	or	or	para	para_D
+ms	marine	res	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	93	1701	allo_S	or	al	allo	allo_S
+ms	marine	roberts	lake	allo	D	-3.629	-0.024	0.253	0.101	NA	765	2438	allo_D	or	bc	allo	allo_D
+ms	marine	roberts	stream	allo	D	-3.483	-0.049	-0.101	0.145	NA	733	2382	allo_D	or	bc	allo	allo_D
+ms	marine	sj	marine	allo	S	-3.678	0.066	-0.209	0.124	NA	1060	2682	allo_S	or	or	para	para_S
+ms	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	270	allo_S	or	ns	allo	allo_S
+ms	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	305	allo_S	or	ns	allo	allo_S
+ms	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	347	allo_D	or	ns	allo	allo_D
+ms	marine	stl	lake	allo	D	-1.898	-0.136	-1.306	0.102	NA	927	2599	allo_D	or	or	para	para_D
+ms	marine	wc	stream	allo	D	-2.883	0.049	-0.693	0.078	NA	1034	2643	allo_D	or	or	para	para_D
+mud	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	161	allo_D	al	ns	allo	allo_D
+mud	lake	boot	lake	allo	S	-1.196	0.072	-1.288	-0.167	NA	134	1553	allo_S	al	bc	allo	allo_S
+mud	lake	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	99	1518	allo_D	al	bc	allo	allo_D
+mud	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	116	allo_D	al	ns	allo	allo_D
+mud	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	166	allo_D	al	ns	allo	allo_D
+mud	lake	constance	lake	allo	S	-0.434	-0.023	-2.229	-0.071	NA	139	1619	allo_S	al	sl	allo	allo_S
+mud	lake	constance	stream	allo	D	1.411	-0.136	-2.633	-0.316	NA	151	1639	allo_D	al	sl	allo	allo_D
+mud	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	282	allo_D	al	ns	allo	allo_D
+mud	lake	denmark	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	628	allo_D	al	ne	allo	allo_D
+mud	lake	geneva	lake	allo	S	-1.4	0.013	-1.315	-0.047	NA	145	1538	allo_S	al	sl	allo	allo_S
+mud	lake	geneva	stream	allo	D	0.802	0.024	-4.227	0.019	NA	162	1549	allo_D	al	sl	allo	allo_D
+mud	lake	japan	japansea	allo	D	-1.651	0.003	-0.303	-0.2	NA	325	2837	allo_D	al	jp	allo	allo_D
+mud	lake	japan	marine	allo	D	-1.365	-0.022	-1.283	-0.046	NA	314	2122	allo_D	al	jp	allo	allo_D
+mud	lake	joes	lake	allo	S	-2.59	0.025	0.284	-0.134	NA	132	1539	allo_S	al	bc	allo	allo_S
+mud	lake	joes	stream	allo	D	-1.548	-0.011	-0.035	-0.247	NA	123	1534	allo_D	al	bc	allo	allo_D
+mud	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	50	allo_D	al	bc	allo	allo_D
+mud	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	192	allo_D	al	ns	allo	allo_D
+mud	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	87	allo_D	al	ns	allo	allo_D
+mud	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	65	allo_D	al	ns	allo	allo_D
+mud	lake	misty	lake	allo	S	-0.562	0.026	-1.172	-0.303	NA	159	1732	allo_S	al	bc	allo	allo_S
+mud	lake	misty	stream	allo	D	-1.867	0.076	-0.723	-0.154	NA	157	1718	allo_D	al	bc	allo	allo_D
+mud	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	646	allo_D	al	al	para	para_D
+mud	lake	res	marine	allo	D	-3.114	0.048	-0.316	0.058	NA	204	1588	allo_D	al	al	para	para_D
+mud	lake	roberts	lake	allo	S	-0.039	0.063	-1.638	-0.353	NA	150	1789	allo_S	al	bc	allo	allo_S
+mud	lake	roberts	stream	allo	D	-0.458	0.077	-1.889	-0.211	NA	147	1701	allo_D	al	bc	allo	allo_D
+mud	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	131	allo_D	al	ns	allo	allo_D
+mud	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	148	allo_D	al	ns	allo	allo_D
+mud	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	173	allo_D	al	ns	allo	allo_D
+pax	benthic	al	marine	allo	D	-2.618	-0.133	0.225	-0.043	NA	2246	3044	allo_D	bc	ns	allo	allo_D
+pax	benthic	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	218	allo_D	bc	al	allo	allo_D
+pax	benthic	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	322	allo_D	bc	bc	para	para_D
+pax	benthic	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	283	allo_D	bc	bc	para	para_D
+pax	benthic	cl	marine	allo	D	-2.481	-0.155	-0.017	-0.013	NA	1786	2787	allo_D	bc	ns	allo	allo_D
+pax	benthic	cl	white	allo	D	-2.921	-0.099	0.489	-0.047	NA	2226	3051	allo_D	bc	ns	allo	allo_D
+pax	benthic	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	350	allo_D	bc	sl	allo	allo_D
+pax	benthic	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	354	allo_D	bc	sl	allo	allo_D
+pax	benthic	cp	marine	allo	D	-2.377	-0.145	-0.002	-0.047	NA	2613	3245	allo_D	bc	ns	allo	allo_D
+pax	benthic	cr	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	10	547	allo_D	bc	or	allo	allo_D
+pax	benthic	cs	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	10	717	allo_D	bc	or	allo	allo_D
+pax	benthic	denmark	marine	allo	D	-2.404	-0.288	0.021	0.003	NA	1178	2521	allo_D	bc	ne	allo	allo_D
+pax	benthic	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	303	allo_D	bc	sl	allo	allo_D
+pax	benthic	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	295	allo_D	bc	sl	allo	allo_D
+pax	benthic	hadsten	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	498	allo_D	bc	ne	allo	allo_D
+pax	benthic	hald	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	550	allo_D	bc	ne	allo	allo_D
+pax	benthic	japan	japansea	allo	D	-3.523	0.026	0.847	-0.075	NA	3269	3765	allo_D	bc	jp	allo	allo_D
+pax	benthic	japan	marine	allo	D	-2.442	-0.17	0.028	-0.031	NA	3189	3541	allo_D	bc	jp	allo	allo_D
+pax	benthic	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	294	allo_D	bc	bc	para	para_D
+pax	benthic	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	281	allo_D	bc	bc	para	para_D
+pax	benthic	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	39	205	allo_D	bc	bc	para	para_D
+pax	benthic	ln	marine	allo	D	-2.73	-0.115	0.258	-0.034	NA	2389	3130	allo_D	bc	ns	allo	allo_D
+pax	benthic	lq	benthic	allo	S	-3.498	-0.006	0.428	0.036	NA	2154	2697	allo_S	bc	bc	para	para_S
+pax	benthic	lq	limnetic	allo	D	-2.033	-0.152	-0.571	0.006	NA	683	1875	allo_D	bc	bc	para	para_D
+pax	benthic	mariager	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	552	allo_D	bc	ne	allo	allo_D
+pax	benthic	mh	marine	allo	D	-2.557	-0.109	0.109	-0.044	NA	1495	2590	allo_D	bc	ns	allo	allo_D
+pax	benthic	mh	white	allo	D	-2.922	-0.105	0.476	-0.038	NA	1126	2309	allo_D	bc	ns	allo	allo_D
+pax	benthic	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	391	allo_D	bc	bc	para	para_D
+pax	benthic	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	378	allo_D	bc	bc	para	para_D
+pax	benthic	ms	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	481	allo_D	bc	or	allo	allo_D
+pax	benthic	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	242	allo_D	bc	al	allo	allo_D
+pax	benthic	pcr	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	10	658	allo_D	bc	or	allo	allo_D
+pax	benthic	pl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	9	526	allo_D	bc	or	allo	allo_D
+pax	benthic	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	66	allo_D	bc	al	allo	allo_D
+pax	benthic	rb	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	513	allo_D	bc	or	allo	allo_D
+pax	benthic	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	195	allo_D	bc	al	allo	allo_D
+pax	benthic	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	411	allo_D	bc	bc	para	para_D
+pax	benthic	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	368	allo_D	bc	bc	para	para_D
+pax	benthic	sj	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	12	709	allo_D	bc	or	allo	allo_D
+pax	benthic	sk	marine	allo	D	-2.509	-0.059	0.164	-0.097	NA	2042	2911	allo_D	bc	ns	allo	allo_D
+pax	benthic	sr	marine	allo	D	-2.327	-0.152	0.077	-0.072	NA	2096	2973	allo_D	bc	ns	allo	allo_D
+pax	benthic	sr	white	allo	D	-2.727	-0.093	0.351	-0.067	NA	2218	3034	allo_D	bc	ns	allo	allo_D
+pax	benthic	stl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	8	515	allo_D	bc	or	allo	allo_D
+pax	benthic	wc	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	11	662	allo_D	bc	or	allo	allo_D
+pax	limnetic	al	marine	allo	D	-3.209	0.036	0.328	-0.036	NA	2503	3141	allo_D	bc	ns	allo	allo_D
+pax	limnetic	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	213	allo_D	bc	al	allo	allo_D
+pax	limnetic	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	307	allo_D	bc	bc	para	para_D
+pax	limnetic	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	299	allo_D	bc	bc	para	para_D
+pax	limnetic	cl	marine	allo	D	-3.251	0.039	0.163	0.006	NA	2015	2888	allo_D	bc	ns	allo	allo_D
+pax	limnetic	cl	white	allo	D	-3.369	0.022	0.432	-0.012	NA	2494	3141	allo_D	bc	ns	allo	allo_D
+pax	limnetic	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	347	allo_D	bc	sl	allo	allo_D
+pax	limnetic	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	354	allo_D	bc	sl	allo	allo_D
+pax	limnetic	cp	marine	allo	D	-2.858	0.026	0.015	-0.043	NA	2876	3320	allo_D	bc	ns	allo	allo_D
+pax	limnetic	cr	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	11	597	allo_D	bc	or	allo	allo_D
+pax	limnetic	cs	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	12	742	allo_D	bc	or	allo	allo_D
+pax	limnetic	denmark	marine	allo	D	-2.652	0.027	-0.274	-0.024	NA	1422	2624	allo_D	bc	ne	allo	allo_D
+pax	limnetic	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	301	allo_D	bc	sl	allo	allo_D
+pax	limnetic	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	290	allo_D	bc	sl	allo	allo_D
+pax	limnetic	hadsten	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	502	allo_D	bc	ne	allo	allo_D
+pax	limnetic	hald	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	567	allo_D	bc	ne	allo	allo_D
+pax	limnetic	japan	japansea	allo	D	-3.445	0.058	0.512	-0.042	NA	3367	3775	allo_D	bc	jp	allo	allo_D
+pax	limnetic	japan	marine	allo	D	-3.081	-0.028	0.283	-0.01	NA	3280	3572	allo_D	bc	jp	allo	allo_D
+pax	limnetic	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	305	allo_D	bc	bc	para	para_D
+pax	limnetic	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	301	allo_D	bc	bc	para	para_D
+pax	limnetic	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	38	221	allo_D	bc	bc	para	para_D
+pax	limnetic	ln	marine	allo	D	-3.004	0.013	0.131	-0.023	NA	2654	3218	allo_D	bc	ns	allo	allo_D
+pax	limnetic	lq	benthic	allo	D	-2.55	-0.133	-0.041	-0.001	NA	2247	2871	allo_D	bc	bc	para	para_D
+pax	limnetic	lq	limnetic	allo	S	-3.545	0.013	-0.067	0.123	NA	634	1797	allo_S	bc	bc	para	para_S
+pax	limnetic	mariager	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	571	allo_D	bc	ne	allo	allo_D
+pax	limnetic	mh	marine	allo	D	-3.211	0.023	0.278	-0.013	NA	1724	2694	allo_D	bc	ns	allo	allo_D
+pax	limnetic	mh	white	allo	D	-4.985	0.059	1.922	-0.003	NA	1288	2399	allo_D	bc	ns	allo	allo_D
+pax	limnetic	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	397	allo_D	bc	bc	para	para_D
+pax	limnetic	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	401	allo_D	bc	bc	para	para_D
+pax	limnetic	ms	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	495	allo_D	bc	or	allo	allo_D
+pax	limnetic	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	236	allo_D	bc	al	allo	allo_D
+pax	limnetic	pax	benthic	para	D	-1.409	-0.437	-0.722	-0.027	NA	2877	3206	para_D	bc	bc	para	para_D
+pax	limnetic	pcr	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	12	714	allo_D	bc	or	allo	allo_D
+pax	limnetic	pl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	11	568	allo_D	bc	or	allo	allo_D
+pax	limnetic	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	69	allo_D	bc	al	allo	allo_D
+pax	limnetic	rb	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	536	allo_D	bc	or	allo	allo_D
+pax	limnetic	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	209	allo_D	bc	al	allo	allo_D
+pax	limnetic	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	416	allo_D	bc	bc	para	para_D
+pax	limnetic	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	372	allo_D	bc	bc	para	para_D
+pax	limnetic	sj	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	13	761	allo_D	bc	or	allo	allo_D
+pax	limnetic	sk	marine	allo	D	-3.127	0.042	0.256	-0.046	NA	2276	3014	allo_D	bc	ns	allo	allo_D
+pax	limnetic	sr	marine	allo	D	-3.196	0.022	0.282	-0.018	NA	2333	3064	allo_D	bc	ns	allo	allo_D
+pax	limnetic	sr	white	allo	D	-3.383	0.024	0.482	-0.02	NA	2465	3121	allo_D	bc	ns	allo	allo_D
+pax	limnetic	stl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	10	522	allo_D	bc	or	allo	allo_D
+pax	limnetic	wc	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	13	715	allo_D	bc	or	allo	allo_D
+pcr	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	534	allo_D	or	ns	allo	allo_D
+pcr	lake	bea	lake	allo	S	-0.345	-0.11	-1.442	-0.162	NA	135	1946	allo_S	or	al	allo	allo_S
+pcr	lake	boot	lake	allo	S	-3.407	-0.09	0.578	0.042	NA	745	2506	allo_S	or	bc	allo	allo_S
+pcr	lake	boot	stream	allo	D	-1.796	-0.058	-2.12	0.171	NA	592	2422	allo_D	or	bc	allo	allo_D
+pcr	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	361	allo_D	or	ns	allo	allo_D
+pcr	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	546	allo_D	or	ns	allo	allo_D
+pcr	lake	constance	lake	allo	S	-2.181	0.054	-0.581	-0.087	NA	765	2538	allo_S	or	sl	allo	allo_S
+pcr	lake	constance	stream	allo	D	-2.613	0.035	-0.065	-0.084	NA	773	2560	allo_D	or	sl	allo	allo_D
+pcr	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	13	841	allo_D	or	ns	allo	allo_D
+pcr	lake	denmark	marine	allo	D	-0.983	-0.034	-1.635	-0.061	NA	161	1661	allo_D	or	ne	allo	allo_D
+pcr	lake	geneva	lake	allo	S	-1.074	-0.024	-1.937	-0.003	NA	759	2518	allo_S	or	sl	allo	allo_S
+pcr	lake	geneva	stream	allo	D	-1.927	-0.025	-0.758	-0.04	NA	782	2518	allo_D	or	sl	allo	allo_D
+pcr	lake	hadsten	lake	allo	S	-3.493	0.067	0.115	0.034	NA	1023	2864	allo_S	or	ne	allo	allo_S
+pcr	lake	hald	lake	allo	S	-3.914	0.049	0.909	-0.024	NA	1044	2909	allo_S	or	ne	allo	allo_S
+pcr	lake	japan	japansea	allo	D	-2.495	0.046	-0.092	-0.122	NA	1837	3456	allo_D	or	jp	allo	allo_D
+pcr	lake	japan	marine	allo	D	-2.77	-0.023	-0.046	-0.011	NA	1839	3127	allo_D	or	jp	allo	allo_D
+pcr	lake	joes	lake	allo	S	-2.207	-0.04	-1.458	0.137	NA	741	2495	allo_S	or	bc	allo	allo_S
+pcr	lake	joes	stream	allo	D	-1.402	-0.07	-2.097	0.109	NA	691	2468	allo_D	or	bc	allo	allo_D
+pcr	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	7	140	allo_D	or	bc	allo	allo_D
+pcr	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	637	allo_D	or	ns	allo	allo_D
+pcr	lake	mariager	marine	allo	D	-3.523	0.032	0.332	0.025	NA	1020	2882	allo_D	or	ne	allo	allo_D
+pcr	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	282	allo_D	or	ns	allo	allo_D
+pcr	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	210	allo_D	or	ns	allo	allo_D
+pcr	lake	misty	lake	allo	S	-3.585	-0.128	0.784	0.053	NA	806	2560	allo_S	or	bc	allo	allo_S
+pcr	lake	misty	stream	allo	D	-2.677	-0.087	-0.371	0.07	NA	803	2563	allo_D	or	bc	allo	allo_D
+pcr	lake	mud	lake	allo	S	0.331	0.039	-1.811	-0.369	NA	170	2019	allo_S	or	al	allo	allo_S
+pcr	lake	pl	lake	allo	S	-2.168	-0.141	-0.749	0.059	NA	1587	2976	allo_S	or	or	para	para_S
+pcr	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	761	allo_D	or	al	allo	allo_D
+pcr	lake	rb	stream	allo	D	-2.36	-0.175	-0.712	0.099	NA	1087	2789	allo_D	or	or	para	para_D
+pcr	lake	res	marine	allo	D	0.28	-0.068	-3.074	-0.007	NA	118	1799	allo_D	or	al	allo	allo_D
+pcr	lake	roberts	lake	allo	S	-2.103	-0.056	-1.058	0.066	NA	803	2590	allo_S	or	bc	allo	allo_S
+pcr	lake	roberts	stream	allo	D	-2.772	-0.104	-0.639	0.135	NA	775	2548	allo_D	or	bc	allo	allo_D
+pcr	lake	sj	marine	allo	D	-3.235	-0.07	0.484	0.011	NA	1786	2996	allo_D	or	or	para	para_D
+pcr	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	438	allo_D	or	ns	allo	allo_D
+pcr	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	467	allo_D	or	ns	allo	allo_D
+pcr	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	551	allo_D	or	ns	allo	allo_D
+pcr	lake	stl	lake	allo	S	-2.215	-0.142	-0.497	0.025	NA	1622	2963	allo_S	or	or	para	para_S
+pcr	lake	wc	stream	allo	D	-3.369	-0.034	0.499	0.013	NA	1732	2937	allo_D	or	or	para	para_D
+pl	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	391	allo_D	or	ns	allo	allo_D
+pl	lake	bea	lake	allo	S	-2.728	-0.126	2.281	-0.446	NA	103	1643	allo_S	or	al	allo	allo_S
+pl	lake	boot	lake	allo	S	-2.562	-0.073	-0.257	0.024	NA	602	2139	allo_S	or	bc	allo	allo_S
+pl	lake	boot	stream	allo	D	-2.424	-0.147	-0.052	-0.011	NA	493	1966	allo_D	or	bc	allo	allo_D
+pl	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	247	allo_D	or	ns	allo	allo_D
+pl	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	391	allo_D	or	ns	allo	allo_D
+pl	lake	constance	lake	allo	S	-1.934	-0.078	-0.547	-0.049	NA	639	2111	allo_S	or	sl	allo	allo_S
+pl	lake	constance	stream	allo	D	-1.444	-0.031	-1.009	-0.088	NA	646	2149	allo_D	or	sl	allo	allo_D
+pl	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	9	626	allo_D	or	ns	allo	allo_D
+pl	lake	denmark	marine	allo	D	-1.157	-0.501	-1.219	0.013	NA	127	1341	allo_D	or	ne	allo	allo_D
+pl	lake	geneva	lake	allo	S	-1.406	-0.109	-0.414	-0.169	NA	626	2089	allo_S	or	sl	allo	allo_S
+pl	lake	geneva	stream	allo	D	-1.255	-0.112	-0.802	-0.124	NA	632	2079	allo_D	or	sl	allo	allo_D
+pl	lake	hadsten	lake	allo	S	-2.136	-0.037	-0.704	-0.002	NA	891	2572	allo_S	or	ne	allo	allo_S
+pl	lake	hald	lake	allo	S	-2.626	0.009	-0.562	0.038	NA	928	2667	allo_S	or	ne	allo	allo_S
+pl	lake	japan	japansea	allo	D	-2.767	0.019	0.115	-0.075	NA	1645	3320	allo_D	or	jp	allo	allo_D
+pl	lake	japan	marine	allo	D	-3.057	-0.034	0.102	0.028	NA	1604	2910	allo_D	or	jp	allo	allo_D
+pl	lake	joes	lake	allo	S	-3.502	-0.03	0.086	0.104	NA	598	2110	allo_S	or	bc	allo	allo_S
+pl	lake	joes	stream	allo	D	-2.39	-0.076	-0.542	0.037	NA	553	2044	allo_D	or	bc	allo	allo_D
+pl	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	99	allo_D	or	bc	allo	allo_D
+pl	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	460	allo_D	or	ns	allo	allo_D
+pl	lake	mariager	marine	allo	D	-2.787	-0.095	0.145	0.002	NA	890	2668	allo_D	or	ne	allo	allo_D
+pl	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	202	allo_D	or	ns	allo	allo_D
+pl	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	140	allo_D	or	ns	allo	allo_D
+pl	lake	misty	lake	allo	S	-3.223	-0.109	0.668	-0.002	NA	666	2324	allo_S	or	bc	allo	allo_S
+pl	lake	misty	stream	allo	D	-2.036	-0.088	-0.559	-0.014	NA	662	2304	allo_D	or	bc	allo	allo_D
+pl	lake	mud	lake	allo	S	-2.657	-0.172	1.533	-0.245	NA	125	1771	allo_S	or	al	allo	allo_S
+pl	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	590	allo_D	or	al	allo	allo_D
+pl	lake	rb	stream	allo	D	-3.044	0.018	-0.157	0.036	NA	956	2448	allo_D	or	or	para	para_D
+pl	lake	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	85	1562	allo_D	or	al	allo	allo_D
+pl	lake	roberts	lake	allo	S	-2.791	-0.214	0.596	-0.028	NA	666	2399	allo_S	or	bc	allo	allo_S
+pl	lake	roberts	stream	allo	D	-3.498	-0.12	0.979	0	NA	645	2285	allo_D	or	bc	allo	allo_D
+pl	lake	sj	marine	allo	D	-2.729	-0.161	-0.152	0.067	NA	1578	2973	allo_D	or	or	para	para_D
+pl	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	306	allo_D	or	ns	allo	allo_D
+pl	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	343	allo_D	or	ns	allo	allo_D
+pl	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	381	allo_D	or	ns	allo	allo_D
+pl	lake	stl	lake	allo	S	-3.497	0.057	0.253	0.009	NA	972	1389	allo_S	or	or	para	para_S
+pl	lake	wc	stream	allo	D	-2.606	-0.147	-0.246	0.056	NA	1570	2886	allo_D	or	or	para	para_D
+pri	benthic	al	marine	allo	D	-2.279	-0.182	-0.126	-0.029	NA	2133	3030	allo_D	bc	ns	allo	allo_D
+pri	benthic	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	235	allo_D	bc	al	allo	allo_D
+pri	benthic	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	336	allo_D	bc	bc	para	para_D
+pri	benthic	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	310	allo_D	bc	bc	para	para_D
+pri	benthic	cl	marine	allo	D	-2.221	-0.188	-0.283	-0.011	NA	1716	2813	allo_D	bc	ns	allo	allo_D
+pri	benthic	cl	white	allo	D	-2.417	-0.146	0.033	-0.046	NA	2136	3025	allo_D	bc	ns	allo	allo_D
+pri	benthic	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	351	allo_D	bc	sl	allo	allo_D
+pri	benthic	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	366	allo_D	bc	sl	allo	allo_D
+pri	benthic	cp	marine	allo	D	-2.974	-0.168	0.572	-0.025	NA	2479	3206	allo_D	bc	ns	allo	allo_D
+pri	benthic	cr	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	555	allo_D	bc	or	allo	allo_D
+pri	benthic	cs	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	689	allo_D	bc	or	allo	allo_D
+pri	benthic	denmark	marine	allo	D	-3.334	-0.222	0.75	0.028	NA	1217	2619	allo_D	bc	ne	allo	allo_D
+pri	benthic	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	340	allo_D	bc	sl	allo	allo_D
+pri	benthic	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	321	allo_D	bc	sl	allo	allo_D
+pri	benthic	hadsten	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	500	allo_D	bc	ne	allo	allo_D
+pri	benthic	hald	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	569	allo_D	bc	ne	allo	allo_D
+pri	benthic	japan	japansea	allo	D	-3.163	0.017	0.52	-0.078	NA	3292	3781	allo_D	bc	jp	allo	allo_D
+pri	benthic	japan	marine	allo	D	-2.198	-0.224	-0.177	-0.027	NA	3232	3604	allo_D	bc	jp	allo	allo_D
+pri	benthic	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	310	allo_D	bc	bc	para	para_D
+pri	benthic	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	302	allo_D	bc	bc	para	para_D
+pri	benthic	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	22	175	allo_D	bc	bc	para	para_D
+pri	benthic	ln	marine	allo	D	-2.48	-0.153	-0.035	-0.015	NA	2260	3092	allo_D	bc	ns	allo	allo_D
+pri	benthic	lq	benthic	allo	S	-3.631	0.018	0.472	0.04	NA	2448	2955	allo_S	bc	bc	para	para_S
+pri	benthic	lq	limnetic	allo	D	-3.145	-0.171	0.638	0.009	NA	822	2086	allo_D	bc	bc	para	para_D
+pri	benthic	mariager	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	564	allo_D	bc	ne	allo	allo_D
+pri	benthic	mh	marine	allo	D	-1.756	-0.164	-0.476	-0.087	NA	1472	2637	allo_D	bc	ns	allo	allo_D
+pri	benthic	mh	white	allo	D	-2.739	-0.185	0.469	-0.047	NA	1121	2378	allo_D	bc	ns	allo	allo_D
+pri	benthic	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	405	allo_D	bc	bc	para	para_D
+pri	benthic	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	396	allo_D	bc	bc	para	para_D
+pri	benthic	ms	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	498	allo_D	bc	or	allo	allo_D
+pri	benthic	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	258	allo_D	bc	al	allo	allo_D
+pri	benthic	pax	benthic	allo	S	-4.228	0.068	0.857	0.044	NA	2646	2993	allo_S	bc	bc	para	para_S
+pri	benthic	pax	limnetic	allo	D	-2.939	-0.124	0.158	0.036	NA	2784	3226	allo_D	bc	bc	para	para_D
+pri	benthic	pcr	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	7	655	allo_D	bc	or	allo	allo_D
+pri	benthic	pl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	535	allo_D	bc	or	allo	allo_D
+pri	benthic	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	79	allo_D	bc	al	allo	allo_D
+pri	benthic	rb	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	528	allo_D	bc	or	allo	allo_D
+pri	benthic	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	223	allo_D	bc	al	allo	allo_D
+pri	benthic	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	442	allo_D	bc	bc	para	para_D
+pri	benthic	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	383	allo_D	bc	bc	para	para_D
+pri	benthic	sj	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	8	703	allo_D	bc	or	allo	allo_D
+pri	benthic	sk	marine	allo	D	-2.466	-0.18	0.168	-0.049	NA	1950	2920	allo_D	bc	ns	allo	allo_D
+pri	benthic	sr	marine	allo	D	-2.331	-0.16	-0.063	-0.04	NA	2018	2975	allo_D	bc	ns	allo	allo_D
+pri	benthic	sr	white	allo	D	-2.614	-0.12	0.098	-0.027	NA	2119	3014	allo_D	bc	ns	allo	allo_D
+pri	benthic	stl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	503	allo_D	bc	or	allo	allo_D
+pri	benthic	wc	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	658	allo_D	bc	or	allo	allo_D
+pri	limnetic	al	marine	allo	D	-3.962	0.061	0.983	-0.03	NA	1868	2781	allo_D	bc	ns	allo	allo_D
+pri	limnetic	bea	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	226	allo_D	bc	al	allo	allo_D
+pri	limnetic	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	318	allo_D	bc	bc	para	para_D
+pri	limnetic	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	312	allo_D	bc	bc	para	para_D
+pri	limnetic	cl	marine	allo	D	-3.798	0.093	0.638	-0.02	NA	1479	2552	allo_D	bc	ns	allo	allo_D
+pri	limnetic	cl	white	allo	D	-3.57	0.084	0.471	-0.03	NA	1879	2768	allo_D	bc	ns	allo	allo_D
+pri	limnetic	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	329	allo_D	bc	sl	allo	allo_D
+pri	limnetic	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	351	allo_D	bc	sl	allo	allo_D
+pri	limnetic	cp	marine	allo	D	-3.19	0.049	0.442	-0.079	NA	2227	2963	allo_D	bc	ns	allo	allo_D
+pri	limnetic	cr	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	558	allo_D	bc	or	allo	allo_D
+pri	limnetic	cs	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	682	allo_D	bc	or	allo	allo_D
+pri	limnetic	denmark	marine	allo	D	-3.885	0.004	0.951	0.008	NA	1018	2338	allo_D	bc	ne	allo	allo_D
+pri	limnetic	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	316	allo_D	bc	sl	allo	allo_D
+pri	limnetic	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	304	allo_D	bc	sl	allo	allo_D
+pri	limnetic	hadsten	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	472	allo_D	bc	ne	allo	allo_D
+pri	limnetic	hald	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	531	allo_D	bc	ne	allo	allo_D
+pri	limnetic	japan	japansea	allo	D	-3.514	0.05	0.585	-0.034	NA	3185	3762	allo_D	bc	jp	allo	allo_D
+pri	limnetic	japan	marine	allo	D	-3.647	0.006	0.725	0	NA	3085	3477	allo_D	bc	jp	allo	allo_D
+pri	limnetic	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	310	allo_D	bc	bc	para	para_D
+pri	limnetic	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	300	allo_D	bc	bc	para	para_D
+pri	limnetic	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	18	162	allo_D	bc	bc	para	para_D
+pri	limnetic	ln	marine	allo	D	-3.426	0.093	0.269	-0.026	NA	2006	2842	allo_D	bc	ns	allo	allo_D
+pri	limnetic	lq	benthic	allo	D	-3.391	-0.214	0.853	0.028	NA	2531	3082	allo_D	bc	bc	para	para_D
+pri	limnetic	lq	limnetic	allo	S	-2.902	-0.019	0.155	-0.023	NA	824	2010	allo_S	bc	bc	para	para_S
+pri	limnetic	mariager	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	536	allo_D	bc	ne	allo	allo_D
+pri	limnetic	mh	marine	allo	D	-4.234	0.059	1.297	-0.031	NA	1241	2393	allo_D	bc	ns	allo	allo_D
+pri	limnetic	mh	white	allo	D	-4.947	0.113	1.772	-0.034	NA	920	2123	allo_D	bc	ns	allo	allo_D
+pri	limnetic	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	409	allo_D	bc	bc	para	para_D
+pri	limnetic	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	398	allo_D	bc	bc	para	para_D
+pri	limnetic	ms	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	475	allo_D	bc	or	allo	allo_D
+pri	limnetic	mud	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	248	allo_D	bc	al	allo	allo_D
+pri	limnetic	pax	benthic	allo	D	-2.292	-0.256	0.019	-0.028	NA	2659	3132	allo_D	bc	bc	para	para_D
+pri	limnetic	pax	limnetic	allo	S	-3.686	0.059	0.487	0.015	NA	2622	3050	allo_S	bc	bc	para	para_S
+pri	limnetic	pcr	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	666	allo_D	bc	or	allo	allo_D
+pri	limnetic	pl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	537	allo_D	bc	or	allo	allo_D
+pri	limnetic	pri	benthic	para	D	-3.292	-0.191	0.679	0.033	NA	2886	3299	para_D	bc	bc	para	para_D
+pri	limnetic	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	69	allo_D	bc	al	allo	allo_D
+pri	limnetic	rb	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	516	allo_D	bc	or	allo	allo_D
+pri	limnetic	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	205	allo_D	bc	al	allo	allo_D
+pri	limnetic	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	424	allo_D	bc	bc	para	para_D
+pri	limnetic	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	393	allo_D	bc	bc	para	para_D
+pri	limnetic	sj	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	701	allo_D	bc	or	allo	allo_D
+pri	limnetic	sk	marine	allo	D	-4.032	0.086	0.964	-0.033	NA	1714	2678	allo_D	bc	ns	allo	allo_D
+pri	limnetic	sr	marine	allo	D	-3.553	0.053	0.56	-0.022	NA	1773	2722	allo_D	bc	ns	allo	allo_D
+pri	limnetic	sr	white	allo	D	-3.332	0.084	0.228	-0.031	NA	1878	2777	allo_D	bc	ns	allo	allo_D
+pri	limnetic	stl	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	499	allo_D	bc	or	allo	allo_D
+pri	limnetic	wc	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	686	allo_D	bc	or	allo	allo_D
+rab	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	47	allo_S	al	ns	allo	allo_S
+rab	marine	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	443	allo_D	al	bc	allo	allo_D
+rab	marine	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	514	allo_D	al	bc	allo	allo_D
+rab	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	35	allo_S	al	ns	allo	allo_S
+rab	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	49	allo_D	al	ns	allo	allo_D
+rab	marine	constance	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	450	allo_D	al	sl	allo	allo_D
+rab	marine	constance	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	465	allo_D	al	sl	allo	allo_D
+rab	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	82	allo_S	al	ns	allo	allo_S
+rab	marine	denmark	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	190	allo_S	al	ne	allo	allo_S
+rab	marine	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	364	allo_D	al	sl	allo	allo_D
+rab	marine	geneva	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	372	allo_D	al	sl	allo	allo_D
+rab	marine	japan	japansea	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	1841	allo_D	al	jp	allo	allo_D
+rab	marine	japan	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	2	852	allo_S	al	jp	allo	allo_S
+rab	marine	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	416	allo_D	al	bc	allo	allo_D
+rab	marine	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	461	allo_D	al	bc	allo	allo_D
+rab	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	13	allo_S	al	bc	allo	allo_S
+rab	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	57	allo_S	al	ns	allo	allo_S
+rab	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	26	allo_S	al	ns	allo	allo_S
+rab	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	17	allo_D	al	ns	allo	allo_D
+rab	marine	misty	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	583	allo_D	al	bc	allo	allo_D
+rab	marine	misty	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	575	allo_D	al	bc	allo	allo_D
+rab	marine	res	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	2	655	allo_S	al	al	para	para_S
+rab	marine	roberts	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	618	allo_D	al	bc	allo	allo_D
+rab	marine	roberts	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	572	allo_D	al	bc	allo	allo_D
+rab	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	43	allo_S	al	ns	allo	allo_S
+rab	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	48	allo_S	al	ns	allo	allo_S
+rab	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	51	allo_D	al	ns	allo	allo_D
+rb	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	410	allo_D	or	ns	allo	allo_D
+rb	stream	bea	lake	allo	D	-1.815	-0.075	1.297	-0.48	NA	115	1848	allo_D	or	al	allo	allo_D
+rb	stream	boot	lake	allo	D	-2.481	-0.12	-0.375	0.051	NA	725	2374	allo_D	or	bc	allo	allo_D
+rb	stream	boot	stream	allo	S	-1.539	-0.076	-1.97	0.115	NA	575	2235	allo_S	or	bc	allo	allo_S
+rb	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	270	allo_D	or	ns	allo	allo_D
+rb	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	400	allo_D	or	ns	allo	allo_D
+rb	stream	constance	lake	allo	D	-1.537	-0.064	-1.724	0.073	NA	738	2403	allo_D	or	sl	allo	allo_D
+rb	stream	constance	stream	allo	S	-2.101	-0.052	-0.918	0.041	NA	761	2429	allo_S	or	sl	allo	allo_S
+rb	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	615	allo_D	or	ns	allo	allo_D
+rb	stream	denmark	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	62	1340	allo_D	or	ne	allo	allo_D
+rb	stream	geneva	lake	allo	D	-1.768	-0.065	-0.649	-0.07	NA	743	2406	allo_D	or	sl	allo	allo_D
+rb	stream	geneva	stream	allo	S	-1.463	-0.048	-1.494	0.012	NA	757	2393	allo_S	or	sl	allo	allo_S
+rb	stream	hadsten	lake	allo	D	-1.395	0.042	-1.981	0.029	NA	627	2647	allo_D	or	ne	allo	allo_D
+rb	stream	hald	lake	allo	D	-0.336	0.014	-3.35	0.077	NA	628	2670	allo_D	or	ne	allo	allo_D
+rb	stream	japan	japansea	allo	D	-3.603	0.082	0.481	-0.027	NA	1347	3215	allo_D	or	jp	allo	allo_D
+rb	stream	japan	marine	allo	D	-2.76	0.005	-0.366	0.029	NA	1319	2890	allo_D	or	jp	allo	allo_D
+rb	stream	joes	lake	allo	D	-1.601	-0.047	-1.912	0.107	NA	722	2396	allo_D	or	bc	allo	allo_D
+rb	stream	joes	stream	allo	S	-1.228	-0.022	-2.071	0.052	NA	687	2352	allo_S	or	bc	allo	allo_S
+rb	stream	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	97	allo_D	or	bc	allo	allo_D
+rb	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	475	allo_D	or	ns	allo	allo_D
+rb	stream	mariager	marine	allo	D	-0.506	0.014	-2.882	0.032	NA	630	2648	allo_D	or	ne	allo	allo_D
+rb	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	211	allo_D	or	ns	allo	allo_D
+rb	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	159	allo_D	or	ns	allo	allo_D
+rb	stream	misty	lake	allo	D	-1.562	-0.119	-0.986	-0.022	NA	778	2437	allo_D	or	bc	allo	allo_D
+rb	stream	misty	stream	allo	S	-2.011	-0.147	-0.372	-0.031	NA	773	2438	allo_S	or	bc	allo	allo_S
+rb	stream	mud	lake	allo	D	1.075	-0.102	-0.544	-0.821	NA	135	1926	allo_D	or	al	allo	allo_D
+rb	stream	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	765	allo_D	or	al	allo	allo_D
+rb	stream	res	marine	allo	D	0.31	-0.031	-2.947	-0.035	NA	101	1717	allo_D	or	al	allo	allo_D
+rb	stream	roberts	lake	allo	D	-2.994	-0.171	0.334	0.039	NA	776	2448	allo_D	or	bc	allo	allo_D
+rb	stream	roberts	stream	allo	S	-2.845	-0.178	0.198	0.039	NA	754	2404	allo_S	or	bc	allo	allo_S
+rb	stream	sj	marine	allo	D	-2.308	-0.098	-0.739	0.066	NA	1088	2803	allo_D	or	or	para	para_D
+rb	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	319	allo_D	or	ns	allo	allo_D
+rb	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	353	allo_D	or	ns	allo	allo_D
+rb	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	403	allo_D	or	ns	allo	allo_D
+rb	stream	stl	lake	allo	D	-2.509	0.016	-0.76	0.044	NA	972	2437	allo_D	or	or	para	para_D
+rb	stream	wc	stream	allo	S	-2.049	-0.097	-1.057	0.07	NA	1056	2661	allo_S	or	or	para	para_S
+res	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	129	allo_S	al	ns	allo	allo_S
+res	marine	boot	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	97	1360	allo_D	al	bc	allo	allo_D
+res	marine	boot	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	78	1417	allo_D	al	bc	allo	allo_D
+res	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	89	allo_S	al	ns	allo	allo_S
+res	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	131	allo_D	al	ns	allo	allo_D
+res	marine	constance	lake	allo	D	-1.019	0.085	-1.692	-0.123	NA	109	1347	allo_D	al	sl	allo	allo_D
+res	marine	constance	stream	allo	D	1.374	-0.064	-2.799	-0.29	NA	113	1361	allo_D	al	sl	allo	allo_D
+res	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	231	allo_S	al	ns	allo	allo_S
+res	marine	denmark	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	2	499	allo_S	al	ne	allo	allo_S
+res	marine	geneva	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	94	1227	allo_D	al	sl	allo	allo_D
+res	marine	geneva	stream	allo	D	-0.022	0.042	-3.043	-0.024	NA	103	1233	allo_D	al	sl	allo	allo_D
+res	marine	japan	japansea	allo	D	-1.982	0.006	-0.359	-0.119	NA	234	2693	allo_D	al	jp	allo	allo_D
+res	marine	japan	marine	allo	S	-2.779	0.134	-0.361	-0.126	NA	220	1846	allo_S	al	jp	allo	allo_S
+res	marine	joes	lake	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	99	1366	allo_D	al	bc	allo	allo_D
+res	marine	joes	stream	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	87	1388	allo_D	al	bc	allo	allo_D
+res	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	35	allo_S	al	bc	allo	allo_S
+res	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	140	allo_S	al	ns	allo	allo_S
+res	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	68	allo_S	al	ns	allo	allo_S
+res	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	49	allo_D	al	ns	allo	allo_D
+res	marine	misty	lake	allo	D	-1.03	0.021	-1.547	-0.085	NA	114	1549	allo_D	al	bc	allo	allo_D
+res	marine	misty	stream	allo	D	-0.937	0.014	-1.673	-0.073	NA	113	1550	allo_D	al	bc	allo	allo_D
+res	marine	roberts	lake	allo	D	-1.883	-0.004	-0.231	-0.125	NA	105	1640	allo_D	al	bc	allo	allo_D
+res	marine	roberts	stream	allo	D	1.401	-0.046	-2.788	-0.314	NA	100	1575	allo_D	al	bc	allo	allo_D
+res	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	111	allo_S	al	ns	allo	allo_S
+res	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	0	115	allo_S	al	ns	allo	allo_S
+res	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	136	allo_D	al	ns	allo	allo_D
+roberts	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	317	allo_D	bc	ns	allo	allo_D
+roberts	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	207	allo_D	bc	ns	allo	allo_D
+roberts	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	315	allo_D	bc	ns	allo	allo_D
+roberts	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	498	allo_D	bc	ns	allo	allo_D
+roberts	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	357	allo_D	bc	ns	allo	allo_D
+roberts	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	163	allo_D	bc	ns	allo	allo_D
+roberts	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	111	allo_D	bc	ns	allo	allo_D
+roberts	lake	roberts	stream	para	D	-3.231	-0.006	-0.195	0.096	NA	890	2141	para_D	bc	bc	para	para_D
+roberts	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	239	allo_D	bc	ns	allo	allo_D
+roberts	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	277	allo_D	bc	ns	allo	allo_D
+roberts	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	331	allo_D	bc	ns	allo	allo_D
+roberts	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	270	allo_D	bc	ns	allo	allo_D
+roberts	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	169	allo_D	bc	ns	allo	allo_D
+roberts	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	277	allo_D	bc	ns	allo	allo_D
+roberts	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	2	442	allo_D	bc	ns	allo	allo_D
+roberts	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	311	allo_D	bc	ns	allo	allo_D
+roberts	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	138	allo_D	bc	ns	allo	allo_D
+roberts	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	102	allo_D	bc	ns	allo	allo_D
+roberts	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	211	allo_D	bc	ns	allo	allo_D
+roberts	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	235	allo_D	bc	ns	allo	allo_D
+roberts	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	278	allo_D	bc	ns	allo	allo_D
+sj	marine	al	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	2	555	allo_S	or	ns	allo	allo_S
+sj	marine	bea	lake	allo	D	-0.285	-0.154	-0.401	-0.356	NA	126	1950	allo_D	or	al	allo	allo_D
+sj	marine	boot	lake	allo	D	-2.285	-0.04	-0.934	0.068	NA	731	2521	allo_D	or	bc	allo	allo_D
+sj	marine	boot	stream	allo	D	-3.645	-0.084	-0.399	0.22	NA	574	2466	allo_D	or	bc	allo	allo_D
+sj	marine	cl	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	378	allo_S	or	ns	allo	allo_S
+sj	marine	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	552	allo_D	or	ns	allo	allo_D
+sj	marine	constance	lake	allo	D	-4.122	0.099	0.603	0.028	NA	740	2551	allo_D	or	sl	allo	allo_D
+sj	marine	constance	stream	allo	D	-3.772	0.085	0.397	0.015	NA	760	2572	allo_D	or	sl	allo	allo_D
+sj	marine	cp	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	12	857	allo_S	or	ns	allo	allo_S
+sj	marine	denmark	marine	allo	S	-1.329	-0.06	-1.374	-0.033	NA	167	1758	allo_S	or	ne	allo	allo_S
+sj	marine	geneva	lake	allo	D	-3.008	0.029	0.001	-0.01	NA	740	2531	allo_D	or	sl	allo	allo_D
+sj	marine	geneva	stream	allo	D	-2.999	0.034	0.059	-0.026	NA	756	2533	allo_D	or	sl	allo	allo_D
+sj	marine	hadsten	lake	allo	D	-3.285	0.079	-0.229	0.047	NA	1012	2886	allo_D	or	ne	allo	allo_D
+sj	marine	hald	lake	allo	D	-3.881	0.092	0.41	0.026	NA	1039	2905	allo_D	or	ne	allo	allo_D
+sj	marine	japan	japansea	allo	D	-3.097	0.069	0.233	-0.075	NA	1883	3477	allo_D	or	jp	allo	allo_D
+sj	marine	japan	marine	allo	S	-3.337	0.055	0.145	0.01	NA	1867	3162	allo_S	or	jp	allo	allo_S
+sj	marine	joes	lake	allo	D	-1.156	-0.113	-2.377	0.122	NA	719	2523	allo_D	or	bc	allo	allo_D
+sj	marine	joes	stream	allo	D	-1.324	-0.222	-1.855	0.109	NA	674	2482	allo_D	or	bc	allo	allo_D
+sj	marine	litcampbell	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	8	154	allo_S	or	bc	allo	allo_S
+sj	marine	ln	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	6	659	allo_S	or	ns	allo	allo_S
+sj	marine	mariager	marine	allo	S	-4.084	0.11	0.498	0.032	NA	1005	2855	allo_S	or	ne	allo	allo_S
+sj	marine	mh	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	305	allo_S	or	ns	allo	allo_S
+sj	marine	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	225	allo_D	or	ns	allo	allo_D
+sj	marine	misty	lake	allo	D	-2.048	-0.145	-0.812	0.054	NA	787	2577	allo_D	or	bc	allo	allo_D
+sj	marine	misty	stream	allo	D	-2.094	-0.122	-0.751	0.043	NA	782	2568	allo_D	or	bc	allo	allo_D
+sj	marine	mud	lake	allo	D	-0.438	-0.076	-0.466	-0.356	NA	162	2049	allo_D	or	al	allo	allo_D
+sj	marine	rab	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	778	allo_S	or	al	allo	allo_S
+sj	marine	res	marine	allo	S	4.032	0.06	-6.812	-0.199	NA	114	1855	allo_S	or	al	allo	allo_S
+sj	marine	roberts	lake	allo	D	-2.743	-0.104	-0.147	0.05	NA	795	2592	allo_D	or	bc	allo	allo_D
+sj	marine	roberts	stream	allo	D	-2.488	-0.127	-0.637	0.094	NA	757	2564	allo_D	or	bc	allo	allo_D
+sj	marine	sk	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	2	454	allo_S	or	ns	allo	allo_S
+sj	marine	sr	marine	allo	S	NA	NA	NA	NA	Low data, aborting model fitting	1	494	allo_S	or	ns	allo	allo_S
+sj	marine	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	563	allo_D	or	ns	allo	allo_D
+sj	marine	stl	lake	allo	D	-2.94	-0.109	-0.011	0.064	NA	1625	2977	allo_D	or	or	para	para_D
+sj	marine	wc	stream	allo	D	-3.65	-0.008	0.507	0.049	NA	1738	2958	allo_D	or	or	para	para_D
+sk	marine	sr	marine	allo	S	-3.98	0.106	0.62	0.006	NA	2636	2886	allo_S	ns	ns	para	para_S
+sk	marine	sr	white	allo	D	-3.98	0.087	0.649	0.021	NA	2676	2908	allo_D	ns	ns	para	para_D
+sr	marine	sr	white	para	D	-3.941	0.121	0.619	-0.018	NA	2825	3041	para_D	ns	ns	para	para_D
+stl	lake	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	404	allo_D	or	ns	allo	allo_D
+stl	lake	bea	lake	allo	S	-1.875	-0.181	1.365	-0.383	NA	104	1574	allo_S	or	al	allo	allo_S
+stl	lake	boot	lake	allo	S	-1.742	-0.117	-0.719	-0.029	NA	645	2179	allo_S	or	bc	allo	allo_S
+stl	lake	boot	stream	allo	D	-0.883	-0.085	-2.076	0.021	NA	508	1991	allo_D	or	bc	allo	allo_D
+stl	lake	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	248	allo_D	or	ns	allo	allo_D
+stl	lake	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	386	allo_D	or	ns	allo	allo_D
+stl	lake	constance	lake	allo	S	-1.205	-0.024	-1.455	-0.06	NA	673	2156	allo_S	or	sl	allo	allo_S
+stl	lake	constance	stream	allo	D	-1.253	0.005	-1.719	-0.019	NA	688	2200	allo_D	or	sl	allo	allo_D
+stl	lake	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	9	639	allo_D	or	ns	allo	allo_D
+stl	lake	denmark	marine	allo	D	-0.548	-0.546	-1.632	-0.014	NA	124	1285	allo_D	or	ne	allo	allo_D
+stl	lake	geneva	lake	allo	S	-1.151	-0.047	-1.193	-0.107	NA	670	2164	allo_S	or	sl	allo	allo_S
+stl	lake	geneva	stream	allo	D	-0.473	-0.083	-1.579	-0.157	NA	686	2152	allo_D	or	sl	allo	allo_D
+stl	lake	hadsten	lake	allo	S	-1.946	-0.023	-1.281	0.055	NA	928	2627	allo_S	or	ne	allo	allo_S
+stl	lake	hald	lake	allo	S	-2.76	-0.029	-0.364	0.051	NA	957	2697	allo_S	or	ne	allo	allo_S
+stl	lake	japan	japansea	allo	D	-2.513	0.052	-0.285	-0.078	NA	1689	3310	allo_D	or	jp	allo	allo_D
+stl	lake	japan	marine	allo	D	-3.095	-0.083	0.451	-0.004	NA	1622	2830	allo_D	or	jp	allo	allo_D
+stl	lake	joes	lake	allo	S	-1.486	-0.006	-2.368	0.137	NA	642	2158	allo_S	or	bc	allo	allo_S
+stl	lake	joes	stream	allo	D	-1.133	-0.051	-2.497	0.12	NA	602	2107	allo_D	or	bc	allo	allo_D
+stl	lake	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	99	allo_D	or	bc	allo	allo_D
+stl	lake	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	465	allo_D	or	ns	allo	allo_D
+stl	lake	mariager	marine	allo	D	-3.047	-0.051	0.333	-0.007	NA	916	2650	allo_D	or	ne	allo	allo_D
+stl	lake	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	182	allo_D	or	ns	allo	allo_D
+stl	lake	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	138	allo_D	or	ns	allo	allo_D
+stl	lake	misty	lake	allo	S	-2.516	-0.064	-0.201	0.001	NA	701	2305	allo_S	or	bc	allo	allo_S
+stl	lake	misty	stream	allo	D	-2.002	-0.073	-0.721	0	NA	702	2289	allo_D	or	bc	allo	allo_D
+stl	lake	mud	lake	allo	S	0.611	-0.045	-1.78	-0.366	NA	140	1668	allo_S	or	al	allo	allo_S
+stl	lake	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	521	allo_D	or	al	allo	allo_D
+stl	lake	res	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	86	1418	allo_D	or	al	allo	allo_D
+stl	lake	roberts	lake	allo	S	-2.865	-0.089	0.049	0.033	NA	686	2339	allo_S	or	bc	allo	allo_S
+stl	lake	roberts	stream	allo	D	-3.026	-0.119	0.332	0.026	NA	672	2249	allo_D	or	bc	allo	allo_D
+stl	lake	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	300	allo_D	or	ns	allo	allo_D
+stl	lake	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	345	allo_D	or	ns	allo	allo_D
+stl	lake	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	391	allo_D	or	ns	allo	allo_D
+stl	lake	wc	stream	allo	D	-2.656	-0.083	-0.285	0.045	NA	1577	2783	allo_D	or	or	para	para_D
+wc	stream	al	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	525	allo_D	or	ns	allo	allo_D
+wc	stream	bea	lake	allo	D	1.669	0.052	-3.728	-0.305	NA	125	1912	allo_D	or	al	allo	allo_D
+wc	stream	boot	lake	allo	D	-3.556	-0.046	0.518	0.053	NA	712	2363	allo_D	or	bc	allo	allo_D
+wc	stream	boot	stream	allo	S	-3.143	-0.034	-1.065	0.219	NA	580	2380	allo_S	or	bc	allo	allo_S
+wc	stream	cl	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	331	allo_D	or	ns	allo	allo_D
+wc	stream	cl	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	4	529	allo_D	or	ns	allo	allo_D
+wc	stream	constance	lake	allo	D	-2.595	0.057	-0.14	-0.094	NA	734	2418	allo_D	or	sl	allo	allo_D
+wc	stream	constance	stream	allo	S	-3.344	0.06	0.272	-0.02	NA	753	2437	allo_S	or	sl	allo	allo_S
+wc	stream	cp	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	11	807	allo_D	or	ns	allo	allo_D
+wc	stream	denmark	marine	allo	D	-1.88	0.073	-1.164	-0.04	NA	155	1718	allo_D	or	ne	allo	allo_D
+wc	stream	geneva	lake	allo	D	-1.752	0.01	-0.697	-0.119	NA	724	2373	allo_D	or	sl	allo	allo_D
+wc	stream	geneva	stream	allo	S	-1.229	-0.006	-1.22	-0.118	NA	752	2373	allo_S	or	sl	allo	allo_S
+wc	stream	hadsten	lake	allo	D	-3.192	0.09	-0.356	0.043	NA	1007	2768	allo_D	or	ne	allo	allo_D
+wc	stream	hald	lake	allo	D	-3.305	0.084	-0.206	0.04	NA	1035	2833	allo_D	or	ne	allo	allo_D
+wc	stream	japan	japansea	allo	D	-2.998	0.073	0.158	-0.084	NA	1784	3495	allo_D	or	jp	allo	allo_D
+wc	stream	japan	marine	allo	D	-3.27	0.027	0.429	-0.038	NA	1785	3194	allo_D	or	jp	allo	allo_D
+wc	stream	joes	lake	allo	D	-1.507	-0.078	-2.213	0.146	NA	712	2371	allo_D	or	bc	allo	allo_D
+wc	stream	joes	stream	allo	S	-1.304	-0.191	-1.849	0.1	NA	663	2339	allo_S	or	bc	allo	allo_S
+wc	stream	litcampbell	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	5	149	allo_D	or	bc	allo	allo_D
+wc	stream	ln	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	6	618	allo_D	or	ns	allo	allo_D
+wc	stream	mariager	marine	allo	D	-3.272	0.082	0.315	-0.073	NA	997	2811	allo_D	or	ne	allo	allo_D
+wc	stream	mh	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	283	allo_D	or	ns	allo	allo_D
+wc	stream	mh	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	0	199	allo_D	or	ns	allo	allo_D
+wc	stream	misty	lake	allo	D	-3.036	-0.104	0.369	0.011	NA	759	2486	allo_D	or	bc	allo	allo_D
+wc	stream	misty	stream	allo	S	-2.13	-0.066	-0.668	0.005	NA	757	2468	allo_S	or	bc	allo	allo_S
+wc	stream	mud	lake	allo	D	-0.942	-0.071	-0.039	-0.339	NA	164	2018	allo_D	or	al	allo	allo_D
+wc	stream	rab	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	808	allo_D	or	al	allo	allo_D
+wc	stream	res	marine	allo	D	3.521	-0.019	-6.14	-0.144	NA	113	1856	allo_D	or	al	allo	allo_D
+wc	stream	roberts	lake	allo	D	-2.346	-0.073	-0.628	0.045	NA	774	2548	allo_D	or	bc	allo	allo_D
+wc	stream	roberts	stream	allo	S	-2.724	-0.094	-0.277	0.067	NA	745	2467	allo_S	or	bc	allo	allo_S
+wc	stream	sk	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	423	allo_D	or	ns	allo	allo_D
+wc	stream	sr	marine	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	1	452	allo_D	or	ns	allo	allo_D
+wc	stream	sr	white	allo	D	NA	NA	NA	NA	Low data, aborting model fitting	3	531	allo_D	or	ns	allo	allo_D
