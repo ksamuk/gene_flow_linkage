@@ -168,7 +168,7 @@ java -Xmx18g -jar $bin/GenomeAnalysisTK.jar \
 	-variant_index_parameter 128000 \
 	-o $gvcf/${prefix}.GATK.gvcf.vcf
 done < $Hpath/Samplelist.${plate}.txt
-exit
+
 #Make input list for GATK GenotypeGVCFs
 tmp=""
 while read prefix
