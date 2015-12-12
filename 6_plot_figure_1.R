@@ -36,7 +36,7 @@ theme_all <- theme_hc(base_size = 16) +
 
 coeff.dat <- initialize_coeff_dat_files()
 
-stats_df <- read_delim(file = "analysis_ready/75k_stats_combined.txt", delim = " ")
+stats_df <- read_delim(file = "analysis_ready/75k_stats_combined.txt.gz", delim = " ")
 stats_df <- add_region_data(stats_df)
 
 stats_df <- stats_df %>%
@@ -76,6 +76,7 @@ rep_plot <- stats_df %>%
 	mutate(fst_outlier_value = ifelse(fst.outlier == TRUE, fst, NA)) %>%
 	mutate(fst_non_outlier_value = ifelse(fst.outlier == FALSE, fst, NA)) %>%
 	ungroup %>%
+	mutate(group2 = factor(group2, levels = c("para_D", "para_S", "allo_D", "allo_S"))) %>%
 	ggplot(aes(x = midpos/1000000, y = fst))+
 	geom_point(aes(x = midpos/1000000, y = fst_outlier_value, color = "zzzzred"))+
 	geom_point(aes(x = midpos/1000000, y = fst_non_outlier_value, color = "zzzzgrey"))+
@@ -99,6 +100,9 @@ ggsave(rep_plot, filename = "figures/raw/Figure1_A_raw.pdf", height = 8.5, width
 ################################################################################
 # Figure 1 B: Averaged Fitted model coefficients 
 ################################################################################
+
+# reset palatte 
+pal <- c("#F21A00", "#3B9AB2" , "#E7C11A", "#9BBD95")
 
 # create functions based on the averaged the regression coefficients for each selection/gene flow group
 avg_regression_functions <- coeff.dat %>% filter(n_windows_fst > 100) %>% create_average_regression_functions_fst

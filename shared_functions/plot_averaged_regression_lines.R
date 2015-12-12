@@ -28,9 +28,6 @@ plot_averaged_regression_lines <- function(coeff.dat, group_order, pal, group_va
 		intercept <- mean(coeff.dat.group$intercept, na.rm = TRUE)
 		slope <- mean(coeff.dat.group$recomb_rate, na.rm = TRUE)
 		
-		print(intercept)
-		print(slope)
-		
 		#define an equation function
 		#0.0005 is for style only (keeps line from overplotting axis)
 		eq <- function(x){

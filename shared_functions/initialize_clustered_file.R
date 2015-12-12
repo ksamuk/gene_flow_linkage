@@ -32,9 +32,12 @@ cluster.df$geography2 <- ifelse(cluster.df$reg1==cluster.df$reg2, "para", "allo"
 #make new groups 
 cluster.df$group2 <- paste0(cluster.df$geography2,"_",cluster.df$ecology)
 
-group.old.names <- c("allo_D","allo_S", "para_D", "para_S")
-group.rename <- c("Allopatry\nDivergent", "Allopatry\nParallel", "Gene Flow\nDivergent", "Gene Flow\nParallel")
-cluster.df$group2.new <-group.rename[match(cluster.df$group2, group.old.names)]
+group.old.names <- c("para_D", "para_S", "allo_D","allo_S")
+group.rename <- c("Div. Sel. \nGene Flow", "Para. Sel. \nGene Flow", "Div. Sel. \nAllopatry", "Para. Sel. \nAllopatry")
+cluster.df$group2.new <- group.rename[match(cluster.df$group2, group.old.names)]
 cluster.df$group.new <- group.rename[match(cluster.df$group, group.old.names)]
+
+cluster.df$group2.new <- factor(cluster.df$group2.new, levels = c("Div. Sel. \nGene Flow", "Para. Sel. \nGene Flow", "Div. Sel. \nAllopatry", "Para. Sel. \nAllopatry"))
+
 return(cluster.df)
 }

@@ -55,10 +55,12 @@ initialize_coeff_dat_files<- function(){
 	#make new groups :o
 	coeff.dat$group2 <- paste0(coeff.dat$geography2,"_",coeff.dat$ecology)
 	
-	group.old.names <- c("allo_D","allo_S", "para_D", "para_S")
-	group.rename <- c("Allopatry\nDivergent", "Allopatry\nParallel", "Gene Flow\nDivergent", "Gene Flow\nParallel")
+	group.old.names <- c("para_D", "para_S", "allo_D","allo_S")
+	group.rename <- c("Div. Sel. \nGene Flow", "Para. Sel. \nGene Flow", "Div. Sel. \nAllopatry", "Para. Sel. \nAllopatry")
 	coeff.dat$group2.new <- group.rename[match(coeff.dat$group2, group.old.names)]
 	coeff.dat$group.new <- group.rename[match(coeff.dat$group, group.old.names)]
+	
+	coeff.dat$group2.new <- factor(coeff.dat$group2.new, levels = c("Div. Sel. \nGene Flow", "Para. Sel. \nGene Flow", "Div. Sel. \nAllopatry", "Para. Sel. \nAllopatry"))
 	
 	# filter out comparisons that had fewer than 200 windows with > 500 sites (n_windows_dxy is a count of these)
 	

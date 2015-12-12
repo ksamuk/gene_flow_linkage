@@ -17,7 +17,8 @@ library("cowplot")
 list.files("shared_functions", full.names = TRUE) %>% sapply(source) %>% invisible()
 
 select <- dplyr::select
-pal <- c("#E7C11A", "#9BBD95", "#F21A00", "#3B9AB2")
+#pal <- c("#E7C11A", "#9BBD95", "#F21A00", "#3B9AB2")
+pal <- c("#F21A00", "#3B9AB2" , "#E7C11A", "#9BBD95")
 
 ################################################################################
 # Read in and format input files

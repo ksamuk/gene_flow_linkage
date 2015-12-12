@@ -15,7 +15,7 @@ library("ggthemes")
 library("lazyeval")
 library("Hmisc")
 
-list.files("shared_functions", full.names = TRUE) %>% sapply(source)
+list.files("shared_functions", full.names = TRUE) %>% sapply(source) %>% invisible
 
 select <- dplyr::select
 
@@ -45,12 +45,12 @@ theme_all <- theme_classic(base_size = 12)+
 				#axis.text.x = element_text(angle = 45, hjust = 1, size = 10)
 				)
 
-pal <- c("#E7C11A", "#9BBD95", "#F21A00", "#3B9AB2")
+pal <- c("#F21A00", "#3B9AB2" , "#E7C11A", "#9BBD95")
 
 n_permutations <- 10000
 
 ################################################################################
-# Permutation test : nnd.diff, relaxed
+# Permutation test : nnd.diff.sd, relaxed
 ################################################################################
 
 stat <- "nnd.diff.sd"
@@ -61,8 +61,10 @@ permutation_output <- cluster.df %>%
 	group_by(group2.new, comparison) %>%
 	summarise(nnd.diff.sd = mean(nnd.diff.sd, na.rm = TRUE))%>%
 	filter(!is.na(nnd.diff.sd)) %>%
-	filter(nnd.diff.sd > -4)%>% # remove single crazy low value (some kind of error)
+	filter(nnd.diff.sd > -4) %>% # remove single crazy low value (some kind of error)
 	run_cluster_permutations(., stat, group_type, n_permutations, collapsed = TRUE)
+
+run_cluster_permutations(permutation_output, stat, group_type, n_permutations, collapsed = TRUE)
 
 pvals[[paste(stat,group_type)]] <- save_pvals(permutation_output, stat, group_type)
 plots[[length(plots)+1]] <- plot_permutation_output(permutation_output, stat, pal = pal, theme_all = theme_all)
@@ -131,7 +133,6 @@ save_plot(figS3, filename = "figures/raw/FigureS3_raw.pdf", base_height = 8.5, b
 pval.out <- pvals %>% bind_rows
 pval.out$group <- gsub("\\n"," ",pval.out$group)
 pval.out[pval.out$group_type=="group2.new",]$group_type <- "relaxed"
-pval.out[pval.out$group_type=="group.new",]$group_type <- "strict"
 pval.out <- pval.out %>%
 	mutate(effect.size = observed.means - permuted.means)
 

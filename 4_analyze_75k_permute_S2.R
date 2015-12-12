@@ -33,7 +33,8 @@ theme_all <- theme_classic(base_size = 12)+
 				legend.position = "none",
 				axis.text.x = element_text(angle = 90, hjust = 1, size = 10))
 
-pal <- c("#E7C11A", "#9BBD95", "#F21A00", "#3B9AB2")
+#pal <- c("#E7C11A", "#9BBD95", "#F21A00", "#3B9AB2")
+pal <- c("#F21A00", "#3B9AB2" , "#E7C11A", "#9BBD95")
 
 #number of permutations for  tessts
 n_permutations <- 10000
@@ -123,15 +124,15 @@ hs_relaxed <- coeff.dat %>%
 										 point_size = 1, line_size = 2)
 
 labels <- c("fst", "dxy", "hs")
-figS5_dot <- plot_grid(fst_relaxed, dxy_relaxed, hs_relaxed, 
+figS2_dot <- plot_grid(fst_relaxed, dxy_relaxed, hs_relaxed, 
 									 ncol = 1, labels = labels, align = "hv")
 
-save_plot(figS5_dot, filename = "figures/raw/FigureS2_dotplots_raw.pdf", base_height = 8.5, base_width = 4.25)
+save_plot(figS2_dot, filename = "figures/raw/FigureS2_dotplots_raw.pdf", base_height = 8.5, base_width = 4.25)
 
-figS5_hist <- plot_grid(plots[[1]], plots[[2]], plots[[3]], 
+figS2_hist <- plot_grid(plots[[1]], plots[[2]], plots[[3]], 
 									 ncol = 1, labels = labels, align = "hv")
 
-save_plot(figS5_hist, filename = "figures/raw/FigureS2_hist_raw.pdf", base_height = 8.5, base_width = 4.25)
+save_plot(figS2_hist, filename = "figures/raw/FigureS2_hist_raw.pdf", base_height = 8.5, base_width = 4.25)
 
 plot_grid(fst_relaxed, plots[[1]], fst_relaxed, plots[[2]], fst_relaxed, plots[[3]], 
 					ncol = 2, labels = labels, align = "hv")

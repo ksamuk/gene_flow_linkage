@@ -35,7 +35,7 @@ run_cluster_permutations <- function(cluster.df, stat, group_type, n_permutation
 	
 	# calculate pvalues (used in paper)
 	pvals <- list()
-	group_names <- unlist(unique(permuted.means.df[,1]))
+	group_names <- as.character(unlist(unique(permuted.means.df[,1])))
 	for (i in 1:length(group_names)){
 		df <- subset(permuted.means.df, permuted.means.df[,1] == group_names[i])
 		pvals[[i]] <- data.frame(pvalue = two_side_p(unlist(df[,2]), observed.means$mean_stat[i]), group = group_names[i])
