@@ -1,5 +1,5 @@
 # Processing raw reads
-These scripts are designed to start with raw fastq reads and ends with Fst and Dxy scores for each site and genomic window for all population comparisons. 
+These scripts are designed to start with raw fastq reads and ends with Fst and Dxy scores for each site and genomic window for all population comparisons. These scripts require raw .fastq files (e.g. from the SRA accessions in Table S1) in order to function. They do not perform any functions 'as-is'.
 
 ###1a_process_fastq.sh
 -This script takes the raw reads, aligns them to the stickleback genome using BWA and stampy, processes the BAM files using samtools and GATK, and calls SNPs using GATK. 
