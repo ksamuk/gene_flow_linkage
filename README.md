@@ -9,13 +9,32 @@ This repository contains all the scripts and processed data files used to perfor
 
 *Kieran Samuk, Greg Owens, Diana Rennison, Kira Delmore, Sara Miller and Dolph Schluter.*
 
+### Requirements
+
+- **R version 3.2.2**. Certainly dependencies will only work with this version of R.
+- **[Rstudio](https://www.rstudio.com/) (any version that supports packrat)**. This is streamlines the use of [packrat](https://rstudio.github.io/packrat/).
+
 ### How to use this repo
 
-The scripts hosted here fall into two broad categories: 
+Reccomended method:
 
-1. Prepartory scripts that rely on raw DNA sequence data - authored largely by Greg Owens 
-2. Analytical scripts that rely on the output of the prepartory scripts - authored largely by Kieran Samuk
+1. Clone this repository using Rstudio
+2. Open the provide .Rproj file
+3. packrat will initialize the provided dependency library.
+4. Run/browse code etc.
 
-The scripts in category (1) above require one to aquire the raw DNA sequence data described in Table S1 of our paper, install the dependancies listed in the supplemental material, and have a general proficiency with the UNIX shell. In other words, they require some outside preparation and will not work 'out-of-the-box'.
+The following top-level scripts will run 'as-is':
 
-The scripts in category (2) include all necessary data can be run 'as-is' by cloning this repository and running the individual scripts in R. The easiest way to do this would be to open the included .Rproj file using Rstudio. Note you will need to install several necessary R packages in order for these scripts to function.
+4_analyze_75k_permute_S2.R
+5_analyze_clustering_output_S3.R
+6_plot_figure_1.R
+7_plot_figures_2.R
+8_plot_figures_S4_S5.R
+9_plot_figure_S1.R
+
+The remaining below require precursors to function (these will be made available on Dryad, accession number to follow):
+
+1_process_75k_fit_models.R
+2_process_snp_clustering_fst.R
+3_process_clustering_output.R
+
