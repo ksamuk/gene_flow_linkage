@@ -9,12 +9,28 @@ This repository contains all the scripts and processed data files used to perfor
 
 *Kieran Samuk, Greg Owens, Diana Rennison, Kira Delmore, Sara Miller and Dolph Schluter.*
 
+If you have trouble getting the code here to function, or have questions about the dataset, feel free to post an issue. Otherwise, contact Kieran Samuk (me) at samuk@zoology.ubc.ca.
+
 ### Requirements
 
 - **R version 3.2.2**. Certain dependencies will only work with this version of R. If you are using Rstudio, you can toggle the current version of R in Global Options.
 - **[Rstudio](https://www.rstudio.com/) (any version that supports packrat)**. This is streamlines the use of [packrat](https://rstudio.github.io/packrat/).
 
 ### How to use this repo
+
+#### I want to look at your code!
+
+All code can be free browsed online in this repository.
+
+#### I want to look at and/or use your data!
+
+All raw data used in this project are available in the following locations:
+
+1. DNA sequence - on the NCBI SRA here and here (link forthcoming)
+2. Divergence Data (SNP-level) - on Dryad here (link forthcoming).
+3. Divergence Data (window-level)- in the packrat bundle [here](https://www.dropbox.com/s/6csk93s65u3q1px/gene_flow_linkage_bundle_V1.tar.gz?dl=0)
+
+#### I want to reproduce your analysis, with your data or possibly mine!
 
 Reccomended method:
 
@@ -23,21 +39,26 @@ Reccomended method:
 3. packrat will initialize the provided dependency library.
 4. Run/browse code etc.
 
-The following top-level scripts will then run 'as-is':
+When using the packrat bundle, the following top-level scripts will 'as-is':
 
-* 4_analyze_75k_permute_S2.R
-* 5_analyze_clustering_output_S3.R
-* 6_plot_figure_1.R
-* 7_plot_figures_2.R
-* 8_plot_figures_S4_S5.R
-* 9_plot_figure_S1.R
+* 04_analyze_75k_permute_S2.R
+* 05_analyze_clustering_output_S3.R
+* 06_plot_figure_1.R
+* 07_plot_figures_2.R
+* 08_plot_figures_S4_S5.R
+* 09_plot_figure_S1.R
 * 10_prepare_supplemental_data_files.R
+* 11_run_all_analyze_plot_scripts.R
 
 The remaining below require precursors to function (these will be made available on Dryad, accession number to follow):
 
-* 1_process_75k_fit_models.R
-* 2_process_snp_clustering_fst.R
-* 3_process_clustering_output.R
+* 01_process_75k_fit_models.R
+* 02_process_snp_clustering_fst.R
+* 03_process_clustering_output.R
+
+#### I'm not sure what I want to do!
+
+That's OK. May I suggest some [festive music](https://player.spotify.com/album/7vHHpcOnYCjZhYq0caS1qE), in that case? 
 
 ### Repository contents, by folder
 
