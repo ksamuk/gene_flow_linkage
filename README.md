@@ -30,7 +30,7 @@ All raw data used in this project are available in the following locations:
 2. Divergence Data (SNP-level) - on Dryad here (link forthcoming).
 3. Divergence Data (window-level)- in the packrat bundle [here](https://www.dropbox.com/s/6csk93s65u3q1px/gene_flow_linkage_bundle_V1.tar.gz?dl=0)
 
-#### I want to reproduce your analysis, with your data or possibly mine!
+#### I want to reproduce your analysis, with your data or possibly my own!
 
 Reccomended method:
 
