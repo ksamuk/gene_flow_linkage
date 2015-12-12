@@ -1,7 +1,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-# recombination_bias
+# gene_flow_linkage
 
 This repository contains all the scripts and processed data files used to perform the data processing and analyses described in:
 
