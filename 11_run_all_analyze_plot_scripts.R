@@ -15,3 +15,7 @@ list.files(pattern = "plot", full.names = TRUE) %>%
 list.files(pattern = "analyze", full.names = TRUE) %>% 
 	grep("RUN", ., invert = TRUE, value = TRUE) %>% 
 	sapply(source)
+
+list.files(pattern = "prepare", full.names = TRUE) %>% 
+	grep("RUN", ., invert = TRUE, value = TRUE) %>% 
+	sapply(source)
