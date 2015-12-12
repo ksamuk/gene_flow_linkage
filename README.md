@@ -11,19 +11,19 @@ This repository contains all the scripts and processed data files used to perfor
 
 ### Requirements
 
-- **R version 3.2.2**. Certainly dependencies will only work with this version of R.
+- **R version 3.2.2**. Certain dependencies will only work with this version of R. If you are using Rstudio, you can toggle the current version of R in Global Options.
 - **[Rstudio](https://www.rstudio.com/) (any version that supports packrat)**. This is streamlines the use of [packrat](https://rstudio.github.io/packrat/).
 
 ### How to use this repo
 
 Reccomended method:
 
-1. Clone this repository using Rstudio
-2. Open the provide .Rproj file
+1. Download a zip of this repo, including data and a bundle of package dependencies [HERE](https://www.dropbox.com/s/6csk93s65u3q1px/gene_flow_linkage_bundle_V1.tar.gz?dl=0)
+2. Open the provided .Rproj file
 3. packrat will initialize the provided dependency library.
 4. Run/browse code etc.
 
-The following top-level scripts will run 'as-is':
+The following top-level scripts will then run 'as-is':
 
 * 4_analyze_75k_permute_S2.R
 * 5_analyze_clustering_output_S3.R
