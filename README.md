@@ -31,6 +31,7 @@ The following top-level scripts will run 'as-is':
 * 7_plot_figures_2.R
 * 8_plot_figures_S4_S5.R
 * 9_plot_figure_S1.R
+* 10_prepare_supplemental_data_files.R
 
 The remaining below require precursors to function (these will be made available on Dryad, accession number to follow):
 
