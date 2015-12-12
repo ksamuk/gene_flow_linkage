@@ -25,16 +25,16 @@ Reccomended method:
 
 The following top-level scripts will run 'as-is':
 
-4_analyze_75k_permute_S2.R
-5_analyze_clustering_output_S3.R
-6_plot_figure_1.R
-7_plot_figures_2.R
-8_plot_figures_S4_S5.R
-9_plot_figure_S1.R
+* 4_analyze_75k_permute_S2.R
+* 5_analyze_clustering_output_S3.R
+* 6_plot_figure_1.R
+* 7_plot_figures_2.R
+* 8_plot_figures_S4_S5.R
+* 9_plot_figure_S1.R
 
 The remaining below require precursors to function (these will be made available on Dryad, accession number to follow):
 
-1_process_75k_fit_models.R
-2_process_snp_clustering_fst.R
-3_process_clustering_output.R
+* 1_process_75k_fit_models.R
+* 2_process_snp_clustering_fst.R
+* 3_process_clustering_output.R
 
