@@ -39,7 +39,7 @@ Reccomended method:
 3. packrat will initialize the provided dependency library.
 4. Run/browse code etc.
 
-When using the packrat bundle, the following top-level scripts will 'as-is':
+When using the packrat bundle, the following top-level scripts will function 'out of the box':
 
 * 04_analyze_75k_permute_S2.R
 * 05_analyze_clustering_output_S3.R
