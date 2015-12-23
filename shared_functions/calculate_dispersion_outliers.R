@@ -1,5 +1,4 @@
-calculate_dispersion_outliers <- function (lg) {
-	
+calculate_dispersion_outliers <- function (lg){
 	start <- min(lg$gen.pos, na.rm = TRUE)
 	end <- max(lg$gen.pos, na.rm = TRUE)
 	
@@ -13,8 +12,7 @@ calculate_dispersion_outliers <- function (lg) {
 	outlier.dispersion <- outlier.positions %>%
 		sort %>%
 		diff %>% 
-		(function(x) return(var(x,na.rm = TRUE)/mean(x,na.rm = TRUE)))
+		(function(x) return(sqrt(var(x,na.rm = TRUE))/mean(x,na.rm = TRUE)))
 	
 	return(outlier.dispersion)
-	
 }

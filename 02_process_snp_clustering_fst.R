@@ -1,7 +1,10 @@
 # process a folder of stats files, compute clustering, perform permutation test
 # ks august 2015
 
-#
+# run like: Rscript like 02_process_snp_clustering_fst.R [cores] [direction] [limit]
+# [cores] (interger) = number of processor cores to use
+# [direction] ("fwd" or "rev") = start from beginning (fwd) or end (rev) of list of stats files
+# [limit] ("TRUE", "FALSE") = if TRUE, script will keep running until all stats files are processed
 rm(list = ls())
 
 ################################################################################
@@ -43,18 +46,18 @@ calculate_coeff_dispersion_stats_file <- function(stats.filename, num_permutatio
 	if(trace){print("Filtering and calling outliers...")} 
 	# filter FST values and call
 	
-		stats.file <- stats.file %>%
-			filter(!is.na(fst)) %>%
-			filter(!is.infinite(fst))
-			
-		stats.file$fst[stats.file$fst < 0] <- 0
+	stats.file <- stats.file %>%
+		filter(!is.na(fst)) %>%
+		filter(!is.infinite(fst))
 	
-		stats.file <- stats.file %>%
-			mutate(fst.outlier = is.outlier(fst))
-
+	stats.file$fst[stats.file$fst < 0] <- 0
+	
+	stats.file <- stats.file %>%
+		mutate(fst.outlier = is.outlier(fst))
+	
 	# downsample wgs datasets to 100000 markers 
 	# (otherwise they massively overload all clustering permutations)
-		
+	
 	if(nrow(stats.file) > 100000){
 		if(trace){print("Too many sites, downsampling to 100 000...")} 
 		stats.file <- stats.file %>% sample_n(100000)
@@ -99,8 +102,8 @@ calculate_coeff_dispersion_stats_file <- function(stats.filename, num_permutatio
 	cluster.df$ecology <- file.name.split[4]
 	
 	cluster.df <- cluster.df %>% select(pop1, ecotype1, pop2, ecotype2, geography, ecology, everything())
-	date.stamp <- paste("_", format(Sys.time(), "%Y-%m-%d"), sep="")
-	out.file.name <- file.path(out.folder, paste(file.name.stripped, date.stamp, ".clustered.txt", sep=""))
+	#date.stamp <- paste("_", format(Sys.time(), "%Y-%m-%d"), sep="")
+	out.file.name <- file.path(out.folder, paste(file.name.stripped, ".clustered.txt", sep=""))
 	
 	#### write to file
 	write.table(cluster.df, file = out.file.name, row.names = FALSE, quote = FALSE)
@@ -122,7 +125,7 @@ limit <- as.logical(args[3])
 
 # check which SNP files (stats.folder) still need to be processed
 out.files <- list.files(out.folder)
-out.files.exist <- out.files %>% gsub("\\d","",.) %>% gsub("-","",.) %>% gsub(".gz_.clustered.txt",".txt.gz",.)
+out.files.exist <- out.files %>% gsub("\\d","",.) %>% gsub("-","",.) %>% gsub(".gz.clustered.txt",".txt.gz",.)
 stats.reformat <- list.files(stats.folder)
 files.to.process <- stats.files[!stats.reformat %in% out.files.exist]
 
@@ -138,8 +141,10 @@ if (limit){
 		# (ghetto distributed method)
 		if (direction == "rev"){
 			files.to.process <- rev(files.to.process)
+		} else if(direction == "random"){
+			files.to.process <- grep("jap", files.to.process, invert = TRUE, values = TRUE)
+			files.to.process <- sample(files.to.process)
 		}
-		
 		# a chunk of files to process
 		files.to.process <- files.to.process[1:20]
 		
@@ -154,13 +159,13 @@ if (limit){
 		
 		# reread files to process
 		out.files <- list.files(out.folder)
-		out.files.exist <- out.files %>% gsub("\\d","",.) %>% gsub("-","",.) %>% gsub(".gz_.clustered.txt",".txt.gz",.)
+		out.files.exist <- out.files %>% gsub("\\d","",.) %>% gsub("-","",.) %>% gsub(".gz.clustered.txt",".txt.gz",.)
 		files.to.process <- stats.files[!stats.reformat %in% out.files.exist]
 	}
 }else{
 	catch_error <- try(mclapply(files.to.process, calculate_coeff_dispersion_stats_file, mc.cores = cores, mc.silent = FALSE, mc.preschedule = FALSE)) 
 	print(catch_error)
 }
-	
+
 
 # END
