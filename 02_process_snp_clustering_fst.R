@@ -142,7 +142,7 @@ if (limit){
 		if (direction == "rev"){
 			files.to.process <- rev(files.to.process)
 		} else if(direction == "random"){
-			files.to.process <- grep("jap", files.to.process, invert = TRUE, values = TRUE)
+			files.to.process <- grep("jap", files.to.process, invert = TRUE, value = TRUE)
 			files.to.process <- sample(files.to.process)
 		}
 		# a chunk of files to process
