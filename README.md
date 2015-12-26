@@ -56,10 +56,6 @@ The remaining below require precursors to function (these will be made available
 * 02_process_snp_clustering_fst.R
 * 03_process_clustering_output.R
 
-#### I'm not sure what I want to do!
-
-That's OK. May I suggest some [festive music](https://player.spotify.com/album/7vHHpcOnYCjZhYq0caS1qE), in that case? 
-
 ### Repository contents, by folder
 
 #### analysis_ready
