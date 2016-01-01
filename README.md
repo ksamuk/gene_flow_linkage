@@ -5,7 +5,7 @@
 
 This repository contains all the scripts and processed data files used to perform the data processing and analyses described in:
 
-**Gene flow favors linkage between adaptive alleles in a globally distributed species**
+**Clustering of adaptive alleles is favoured by gene flow in a globally distributed species**
 
 *Kieran Samuk, Greg Owens, Diana Rennison, Kira Delmore, Sara Miller and Dolph Schluter.*
 
