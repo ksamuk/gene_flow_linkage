@@ -9,7 +9,7 @@ This repository contains all the scripts and processed data files used to perfor
 
 *Kieran Samuk, Greg Owens, Diana Rennison, Kira Delmore, Sara Miller and Dolph Schluter.*
 
-If you have trouble getting the code here to function, or have questions about the dataset, feel free to post an issue. You can also me (Kieran Samuk) at samuk@zoology.ubc.ca.
+If you have trouble getting the code here to function, or have questions about the dataset, feel free to post an issue. You can also me reach me (Kieran Samuk) at samuk@zoology.ubc.ca.
 
 ### Requirements
 
