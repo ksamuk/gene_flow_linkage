@@ -11,3 +11,6 @@ vignettes/*.html
 vignettes/*.pdf
 .Rproj.user
 packrat/lib*/
+stats/*
+stats/75k_all/*.txt
+stats/150k_all/*.txt

@@ -38,7 +38,7 @@ cluster.df <- cluster.df %>%
 
 # theme settings
 point_size <- 1
-line_size <- 3
+line_size <- 1
 size <- 16
 theme.all <- theme_hc + theme(legend.position="none", 
                    axis.title.x = element_blank(), 
@@ -59,6 +59,17 @@ coeff.dispersion <- cluster.df %>%
 										 stat = "disp.out", label = "", 
 										 pal = pal, y_lab = "Outlier dispersion coefficient",
 										 theme_all = theme.all, point_size = point_size, line_size = line_size)
+
+cluster.df %>%
+	mutate(comparison = paste(pop1, ecotype1, pop2, ecotype2, sep = ".")) %>%
+	group_by(group2.new, comparison) %>%
+	summarise(disp.out = mean(disp.out)) %>%
+	ungroup %>%
+	ggplot(aes_string(x = "group2.new", y = "disp.out"))+
+	geom_point(position = position_jitter(width = 0.3), size = point_size, color = "grey50", alpha = 0.5)+
+	stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median,
+							 geom = "crossbar", width = 0.5, size =1, color = c(pal[1], pal[2], pal[3], pal[4]))
+
 
 # nnd.diff
 nnd.diff <- cluster.df %>%

@@ -46,10 +46,13 @@ add_map_distance <- function(snp.file){
 			
 			if (nrow(windows) == 3){
 				#print(paste(i, snp.pos, nrow(windows)))
+				
 				# marker is in a reversed section
 				window.diff <- (windows$pos1 - windows$pos2) %>% abs
+				
 				# choose window with smallest physical distance (i.e. not the breakpoints)
 				snp.pos.window <- windows[which(window.diff == min(window.diff)),]
+				
 			} else if (nrow(windows) == 2){
 				#print(paste(i, snp.pos, nrow(windows)))
 				# marker only found in reversed section breakpoints, set as blank

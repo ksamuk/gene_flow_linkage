@@ -10,7 +10,7 @@ filter_data_call_outliers_function <- function (matched.all){
 		filter(var.sites >= 2) %>%
 		filter(ds <= 3) %>%
 		filter(gene_count <= 15) %>%
-		filter(lg!=19) %>%
+		filter(lg != 19) %>%
 		mutate(dxy_adj = ifelse(sites >= 500, dxy, NA))
 	
 	# force negative fst to be zero
@@ -21,7 +21,7 @@ filter_data_call_outliers_function <- function (matched.all){
 		mutate(fst.outlier = is.outlier(fst))%>%
 		mutate(dxy.outlier = is.outlier(dxy_adj)) %>%
 		mutate(both.outlier = fst.outlier & dxy.outlier)%>%
-		mutate(hs = (hexp1+hexp2)/2)
+		mutate(hs = (hexp1 + hexp2)/2)
 	
 	return(matched.all)
 }

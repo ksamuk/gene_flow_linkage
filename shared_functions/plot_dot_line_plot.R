@@ -7,17 +7,15 @@ plot_dot_line_plot <- function(data, group, stat, label = "", pal = pal, y_lab =
 	
 	plot <- data %>%
 		ggplot(aes_string(x = group, y = stat))+
-		geom_point(position = position_jitter(width = 0.3), size = point_size)+
-		geom_errorbar(stat = "hline", 
-									yintercept = "mean",
-									width = 0.8, size = line_size, 
-									aes(ymax = ..y.. , ymin = ..y..),
-									color = c(pal[1], pal[2], pal[3], pal[4]))+
+		geom_point(position = position_jitter(width = 0.3), size = point_size, color = "grey50", alpha = 0.5)+
+		stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median,
+								 geom = "crossbar", width = 0.5, size = line_size, color = c(pal[1], pal[2], pal[3], pal[4]))+
 		#geom_text(mapping = NULL, aes_string(label = label, hjust = 0, vjust = 0), color = "black" ,alpha = 0.25, size = 6)+
 		theme_all+
 		ylab(y_lab)+
 		xlab(NULL)
 	
 	return(plot)
+
 	
 }

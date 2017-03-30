@@ -72,12 +72,13 @@ theme_all <- theme_hc(base_size = 16) +
 
 dist_fst <- all.df %>%
 	filter(n_windows_fst > 200) %>%
+	#filter(group2 %in% c("para_D", "para_S")) %>%
 	ggplot(aes(x =  jitter(sqrt(euc.distance +1), 2000), y = recomb_rate_fst, color = group2, label = comparison)) +
 	geom_point(size = 2, alpha = 0.5)+
 	scale_color_manual(values = c(pal,1))+
-	geom_smooth(method = "lm", size = 2, color = "black", se = FALSE)+
+	geom_smooth(method = "lm", size = 2, se = FALSE)+
 	theme_all+
-	facet_wrap(~ ecology)+
+	facet_wrap(~ pop1)+
 	xlab(expression(sqrt("Great circle distance (km)")))+
 	ylab("Recombination rate vs. \nFST outlier coeffficient")
 
@@ -138,8 +139,12 @@ fit_dist_bias <- all.df %>%
 	mutate(sqrt_euc = sqrt(euc.distance+1)) %>%
 	lm(data = ., recomb_rate_fst~sqrt_euc * ecology)
 
+
 anova(fit_dist_bias)
 summary(fit_dist_bias)
+
+anova(fit_dist_bias_lmer1, fit_dist_bias_lmer2, fit_dist_bias_lmer3, fit_dist_bias_lmer4)
+summary(fit_dist_bias_lmer)
 
 # fst: fst*ecology
 
