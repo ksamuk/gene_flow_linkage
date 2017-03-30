@@ -5,11 +5,11 @@
 
 This repository contains all the scripts and processed data files used to perform the data processing and analyses described in:
 
-**Gene flow favors linkage between adaptive alleles in a globally distributed species**
+**Clustering of adaptive alleles is favoured by gene flow in a globally distributed species**
 
 *Kieran Samuk, Greg Owens, Diana Rennison, Kira Delmore, Sara Miller and Dolph Schluter.*
 
-If you have trouble getting the code here to function, or have questions about the dataset, feel free to post an issue. Otherwise, contact Kieran Samuk at samuk@zoology.ubc.ca.
+If you have trouble getting the code here to function, or have questions about the dataset, feel free to post an issue. You can also me reach me (Kieran Samuk) at samuk@zoology.ubc.ca.
 
 ### Requirements
 
@@ -39,7 +39,7 @@ Reccomended method:
 3. packrat will initialize the provided dependency library.
 4. Run/browse code etc.
 
-When using the packrat bundle, the following top-level scripts will 'as-is':
+When using the packrat bundle, the following top-level scripts will function 'out of the box':
 
 * 04_analyze_75k_permute_S2.R
 * 05_analyze_clustering_output_S3.R
@@ -55,10 +55,6 @@ The remaining below require precursors to function (these will be made available
 * 01_process_75k_fit_models.R
 * 02_process_snp_clustering_fst.R
 * 03_process_clustering_output.R
-
-#### I'm not sure what I want to do!
-
-That's OK. May I suggest some [festive music](https://player.spotify.com/album/7vHHpcOnYCjZhYq0caS1qE), in that case? 
 
 ### Repository contents, by folder
 

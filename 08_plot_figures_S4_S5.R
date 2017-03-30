@@ -72,13 +72,12 @@ theme_all <- theme_hc(base_size = 16) +
 
 dist_fst <- all.df %>%
 	filter(n_windows_fst > 200) %>%
-	#filter(group2 %in% c("para_D", "para_S")) %>%
 	ggplot(aes(x =  jitter(sqrt(euc.distance +1), 2000), y = recomb_rate_fst, color = group2, label = comparison)) +
 	geom_point(size = 2, alpha = 0.5)+
 	scale_color_manual(values = c(pal,1))+
-	geom_smooth(method = "lm", size = 2, se = FALSE)+
+	geom_smooth(method = "lm", size = 2, color = "black", se = FALSE)+
 	theme_all+
-	facet_wrap(~ pop1)+
+	facet_wrap(~ ecology)+
 	xlab(expression(sqrt("Great circle distance (km)")))+
 	ylab("Recombination rate vs. \nFST outlier coeffficient")
 
@@ -128,50 +127,244 @@ figs5 <- plot_grid(dist_dxy, fst_dxy, ncol = 1)
 
 save_plot(figs5, file = "figures/raw/FigureS5_raw.pdf", base_height = 8.5, base_width = 8.5)
 
-##################################
-# Supporting linear models
-##################################
+####################################################################
+# DISTANCE VS. RECOMBINATION BIAS PERMUTATION TESTS
+####################################################################
 
-# fst: distance 
+dist_df <- all.df %>%
+	select(comparison, geography2, ecology, group2, recomb_rate_fst, euc.distance)
 
-fit_dist_bias <- all.df %>%
-	filter(n_windows_fst > 200) %>%
-	mutate(sqrt_euc = sqrt(euc.distance+1)) %>%
-	lm(data = ., recomb_rate_fst~sqrt_euc * ecology)
+# confirming groups are correct
+dist_df %>%
+	ggplot(aes(x = euc.distance, y = recomb_rate_fst, color = ecology))+
+	geom_point() +
+	geom_smooth(method = "lm")
+
+# permutation to test for difference in slopes
+# computes the expected difference between selective regimes in the slope of the relationship between 
+# recombination bias and geographic distance
+
+permute_slope_distance <- function(data_df){
+	
+	perm_df <- dist_df
+	perm_df$ecology <- sample(perm_df$ecology)
+	
+	perm_df <- perm_df %>%
+		group_by(ecology) %>%
+		do(slope = lm(.$recomb_rate_fst ~ .$euc.distance) %>% coefficients %>% .[2] %>% unlist) %>%
+		data.frame
+	
+	perm_df$slope <- unlist(perm_df$slope)
+	
+	
+	perm_df$slope[1] - perm_df$slope[2]
+	
+}
+
+# perform the permutation
+perm_reps <- replicate(10000, permute_slope_distance(dist_df), simplify = FALSE)
+perm_reps <- unlist(perm_reps)
+
+# compute the empirical difference in means
+emp_val <- dist_df %>%
+	group_by(ecology) %>%
+	do(slope = lm(.$recomb_rate_fst ~ .$euc.distance) %>% coefficients %>% .[2] %>% unlist) %>%
+	data.frame
+
+emp_val$slope <- unlist(emp_val$slope)
+emp_val <- emp_val$slope[1] - emp_val$slope[2]
+
+# compute a two-sided pvalue by determining the location of the empirical value in the distribution of 
+# permuted values
+two_side_p(perm_reps, emp_val)
+
+# 10000 permutations:
+#[1] 0.00079992
+
+# permutation to test for difference in intercept 
+# computes the expected difference between selective regimes in the intercept  of the relationship between 
+# recombination bias and geographic distance
+
+permute_intercept_distance <- function(data_df){
+	
+	perm_df <- dist_df
+	perm_df$ecology <- sample(perm_df$ecology)
+	
+	perm_df <- perm_df %>%
+		group_by(ecology) %>%
+		do(intercept = lm(.$recomb_rate_fst ~ .$euc.distance) %>% coefficients %>% .[1] %>% unlist) %>%
+		data.frame
+	
+	perm_df$intercept  <- unlist(perm_df$intercept )
+	
+	
+	perm_df$intercept [1] - perm_df$intercept [2]
+	
+}
+
+# perform the permutation
+perm_reps <- replicate(10000, permute_intercept_distance(dist_df), simplify = FALSE)
+perm_reps <- unlist(perm_reps)
+
+# compute the empirical difference in means
+emp_val <- dist_df %>%
+	group_by(ecology) %>%
+	do(intercept  = lm(.$recomb_rate_fst ~ .$euc.distance) %>% coefficients %>% .[1] %>% unlist) %>%
+	data.frame
+
+emp_val$intercept  <- unlist(emp_val$intercept )
+emp_val <- emp_val$intercept [1] - emp_val$intercept [2]
+
+# compute a two-sided pvalue by determining the location of the empirical value in the distribution of 
+# permuted values
+two_side_p(perm_reps, emp_val)
+
+# 10000 permutations:
+#[1] 0.00019998
+
+####################################################################
+# GENOME-WIDE FST VS. RECOMBINATION BIAS PERMUTATION TESTS
+####################################################################
+
+# subsetting data
+fst_df <- all.df %>%
+	select(comparison, geography2, ecology, group2, recomb_rate_fst, fst, euc.distance)
+
+# confirming groups are correct
+fst_df %>%
+	ggplot(aes(x = fst, y = recomb_rate_fst, color = euc.distance))+
+	geom_point() +
+	geom_smooth(method = "lm")+
+	facet_wrap(geography2~ecology)
+
+# permutation to test for difference in slopes
+# computes the expected difference between selective regimes in the slope of the relationship between 
+# recombination bias and geographic distance
+
+permute_slope_distance <- function(data_df){
+	
+	perm_df <- fst_df
+	perm_df$ecology <- sample(perm_df$ecology)
+	
+	perm_df <- perm_df %>%
+		group_by(ecology) %>%
+		do(slope = lm(.$recomb_rate_fst ~ .$fst) %>% coefficients %>% .[2] %>% unlist) %>%
+		data.frame
+	
+	perm_df$slope <- unlist(perm_df$slope)
+	
+	
+	perm_df$slope[1] - perm_df$slope[2]
+	
+}
+
+# perform the permutation
+perm_reps <- replicate(10000, permute_slope_distance(fst_df), simplify = FALSE)
+perm_reps <- unlist(perm_reps)
+
+# compute the empirical difference in means
+emp_val <- fst_df %>%
+	group_by(ecology) %>%
+	do(slope = lm(.$recomb_rate_fst ~ .$fst) %>% coefficients %>% .[2] %>% unlist) %>%
+	data.frame
+
+emp_val$slope <- unlist(emp_val$slope)
+emp_val <- emp_val$slope[1] - emp_val$slope[2]
+
+# compute a two-sided pvalue by determining the location of the empirical value in the distribution of 
+# permuted values
+two_side_p(perm_reps, emp_val)
+
+# 10000 permutations:
+#[1] 0.209579
+
+# permutation to test for difference in intercept 
+# computes the expected difference between selective regimes in the intercept  of the relationship between 
+# recombination bias and geographic distance
+
+permute_intercept_distance <- function(data_df){
+	
+	perm_df <- fst_df
+	perm_df$ecology <- sample(perm_df$ecology)
+	
+	perm_df <- perm_df %>%
+		group_by(ecology) %>%
+		do(intercept = lm(.$recomb_rate_fst ~ .$fst) %>% coefficients %>% .[1] %>% unlist) %>%
+		data.frame
+	
+	perm_df$intercept  <- unlist(perm_df$intercept )
+	
+	
+	perm_df$intercept [1] - perm_df$intercept [2]
+	
+}
+
+# perform the permutation
+perm_reps <- replicate(10000, permute_intercept_distance(fst_df), simplify = FALSE)
+perm_reps <- unlist(perm_reps)
+
+# compute the empirical difference in means
+emp_val <- fst_df %>%
+	group_by(ecology) %>%
+	do(intercept  = lm(.$recomb_rate_fst ~ .$fst) %>% coefficients %>% .[1] %>% unlist) %>%
+	data.frame
+
+emp_val$intercept  <- unlist(emp_val$intercept)
+emp_val <- emp_val$intercept [1] - emp_val$intercept [2]
+
+# compute a two-sided pvalue by determining the location of the empirical value in the distribution of 
+# permuted values
+two_side_p(perm_reps, emp_val)
+
+# 10000 permutations:
+#[1] 0.00019998
 
 
-anova(fit_dist_bias)
-summary(fit_dist_bias)
+####################################################################
+# GENOME-WIDE FST VS. RECOMBINATION BIAS IN GENERAL
+####################################################################
 
-anova(fit_dist_bias_lmer1, fit_dist_bias_lmer2, fit_dist_bias_lmer3, fit_dist_bias_lmer4)
-summary(fit_dist_bias_lmer)
+# subsetting data
+fst_df <- all.df %>%
+	select(comparison, geography2, ecology, group2, recomb_rate_fst, fst, euc.distance)
 
-# fst: fst*ecology
+# confirming groups are correct
+fst_df %>%
+	ggplot(aes(x = fst, y = recomb_rate_fst, color = euc.distance))+
+	geom_point() +
+	geom_smooth(method = "lm")+
+	facet_wrap(geography2~ecology)
 
-fit_ecol_bias <- all.df %>%
-	filter(n_windows_fst > 200) %>%
-	mutate(sqrt_euc = sqrt(euc.distance+1)) %>%
-	lm(data = ., recomb_rate_fst~fst*group2)
+# permutation to test for difference in slopes
+# computes the expected difference between selective regimes in the slope of the relationship between 
+# recombination bias and geographic distance
 
-anova(fit_ecol_bias)
-summary(fit_ecol_bias)
+permute_slope_fst <- function(data_df){
+	
+	perm_df <- fst_df %>%
+		ungroup
+	perm_df$fst <- sample(perm_df$fst)
+	
+	perm_df <- perm_df %>%
+		summarise(slope = lm(.$recomb_rate_fst ~ .$fst) %>% coefficients %>% .[2] %>% unlist) %>%
+		data.frame
+	
+}
 
-# dxy: distance 
+# perform the permutation
+perm_reps <- replicate(10000, permute_slope_fst(fst_df), simplify = FALSE)
+perm_reps <- unlist(perm_reps)
 
-fit_dist_bias_dxy <- all.df %>%
-	filter(n_windows_dxy > 200) %>%
-	mutate(sqrt_euc = sqrt(euc.distance+1)) %>%
-	lm(data = ., recomb_rate_dxy ~ sqrt_euc)
+# compute the empirical difference in means
+emp_val <- fst_df %>%
+	ungroup %>%
+	summarise(slope = lm(.$recomb_rate_fst ~ .$fst) %>% coefficients %>% .[2] %>% unlist) %>%
+	data.frame
 
-anova(fit_dist_bias_dxy)
-summary(fit_dist_bias_dxy)
+emp_val$slope <- unlist(emp_val$slope)
 
-# dxy: dxy*ecology
+# compute a two-sided pvalue by determining the location of the empirical value in the distribution of 
+# permuted values
+two_side_p(perm_reps, emp_val)
 
-fit_ecol_bias_dxy <- all.df %>%
-	filter(n_windows_dxy > 200) %>%
-	mutate(sqrt_euc = sqrt(euc.distance+1)) %>%
-	lm(data = ., recomb_rate_dxy~fst*group2)
-
-anova(fit_ecol_bias_dxy)
-summary(fit_ecol_bias_dxy)
+#[1] 0.00019998

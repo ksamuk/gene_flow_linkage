@@ -5,7 +5,7 @@ calculate_dispersion <- function (lg) {
 		arrange(gen.pos) %>%
 		unlist %>% 
 		diff %>% 
-		(function(x) return(var(x,na.rm = TRUE)/mean(x,na.rm = TRUE)))
+		(function(x) return(sqrt(var(x, na.rm = TRUE))/mean(x, na.rm = TRUE)))
 	
 	return(dispersion)
 	
